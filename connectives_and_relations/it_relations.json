@@ -1,0 +1,647 @@
+{
+    "a causa di": [
+        "CONTINGENCY:Cause:reason"
+    ],
+    "a condizione che": [
+        "CONTINGENCY:Condition"
+    ],
+    "a dire il vero": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "a dire la verità": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "a dispetto di": [
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "a meno che": [
+        "CONTINGENCY:Negative-Condition:Arg2-as-negcond"
+    ],
+    "a meno di": [
+        "CONTINGENCY:Negative-Condition:Arg2-as-negcond"
+    ],
+    "a onor del vero": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "a tal fine": [
+        "CONTINGENCY:Purpose:Arg1-as-goal"
+    ],
+    "ad esempio": [
+        "EXPANSION:Instantiation"
+    ],
+    "ad ogni modo": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "affinché": [
+        "CONTINGENCY:Purpose:Arg2-as-goal"
+    ],
+    "al che": [
+        "TEMPORAL:Asynchronous:precedence",
+        "CONTINGENCY:Cause:result"
+    ],
+    "al contrario": [
+        "COMPARISON:Contrast",
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "al massimo": [
+        "EXPANSION:Exception:Arg2-as-excpt"
+    ],
+    "al posto di": [
+        "EXPANSION:Substitution:Arg1-as-subst"
+    ],
+    "alla fin fine": [
+        ""
+    ],
+    "alla fine": [
+        "TEMPORAL:Asynchronous:Precedence"
+    ],
+    "allo scopo di": [
+        "CONTINGENCY:Purpose:Arg2-as-goal"
+    ],
+    "allo stesso modo": [
+        "COMPARISON:Similarity"
+    ],
+    "allora": [
+        "TEMPORAL:Asynchronous:precedence",
+        "CONTINGENCY:Cause:result"
+    ],
+    "altrimenti": [
+        "CONTINGENCY:Negative-Condition:Arg1-as-negcond"
+    ],
+    "anche": [
+        "EXPANSION:Conjunction",
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "anche se": [
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "anzi": [
+        "EXPANSION:Conjunction"
+    ],
+    "anziché": [
+        "EXPANSION:Substitution:Arg1-as-subst"
+    ],
+    "benché": [
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "bensì": [
+        "COMPARISON:Contrast"
+    ],
+    "cionondimeno": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "ciononostante": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "cioè": [
+        "EXPANSION:Equivalence",
+        "reformulation"
+    ],
+    "ciò nondimeno": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "ciò nonostante": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "come": [
+        "TEMPORAL:Syncrony",
+        "addition"
+    ],
+    "come conseguenza": [
+        "TEMPORAL:Asynchronous:precedence",
+        "CONTINGENCY:Cause:result"
+    ],
+    "comunque": [
+        "EXPANSION:Conjunction",
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "con ciò": [
+        "consequence"
+    ],
+    "con lo scopo di": [
+        "CONTINGENCY:Purpose:Arg2-as-goal"
+    ],
+    "con questo": [
+        "consequence"
+    ],
+    "con tutto questo": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "contrariamente a": [
+        "COMPARISON:Contrast"
+    ],
+    "contuttociò": [
+        ""
+    ],
+    "cosicché": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "così": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "così che": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "d ' altra parte": [
+        "contrast"
+    ],
+    "d ' altro lato": [
+        ""
+    ],
+    "da allora": [
+        "TEMPORAL:Asynchronous:precedence",
+        "CONTINGENCY:Cause:result"
+    ],
+    "da ciò": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "da quando": [
+        "TEMPORAL:Asynchronous:succession"
+    ],
+    "da ultimo": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "da un canto ... dall ' altro": [
+        "COMPARISON:Contrast"
+    ],
+    "da un lato ... dall ' altro lato": [
+        "COMPARISON:Contrast"
+    ],
+    "da una parte": [
+        "COMPARISON:Contrast"
+    ],
+    "da una parte ... dall ' altra": [
+        "COMPARISON:Contrast"
+    ],
+    "da una parte ... dall ' altra parte": [
+        "COMPARISON:Contrast"
+    ],
+    "dal momento che": [
+        "CONTINGENCY:Cause:reason"
+    ],
+    "del resto": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "di conseguenza": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "di fatto": [
+        ""
+    ],
+    "di modo che": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "difatti": [
+        "EXPANSION:Instantiation"
+    ],
+    "dimodoché": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "dopo": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "dopo di che": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "dopo di ciò": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "dopodiché": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "dopotutto": [
+        ""
+    ],
+    "dunque": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "e": [
+        "EXPANSION:Conjunction",
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "ebbene": [
+        ""
+    ],
+    "eccetto": [
+        "EXPANSION:Exception:Arg2-as-except"
+    ],
+    "eppure": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "fatto sta che": [
+        ""
+    ],
+    "fin qui": [
+        "EXPANSION:Conjunction"
+    ],
+    "fino a questo punto": [
+        "EXPANSION:Conjunction"
+    ],
+    "frattanto": [
+        "TEMPORAL:Syncrony"
+    ],
+    "fuorché": [
+        "EXPANSION:Exception:Arg2-as-except"
+    ],
+    "giacché": [
+        "CONTINGENCY:Cause:reason"
+    ],
+    "in altre parole": [
+        "EXPANSION:Equivalence"
+    ],
+    "in altri termini": [
+        "EXPANSION:Equivalence"
+    ],
+    "in base a": [
+        "CONTINGENCY:Cause:reason"
+    ],
+    "in breve": [
+        "EXPANSION:Specification:Arg1-as-detail(Summarization)"
+    ],
+    "in caso contrario": [
+        "CONTINGENCY:Negative-Condition:Arg1-as-negcond"
+    ],
+    "in conclusione": [
+        "EXPANSION:Specification:Arg1-as-detail(Summarization)"
+    ],
+    "in conseguenza di ciò": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "in definitiva": [
+        ""
+    ],
+    "in fin dei conti": [
+        ""
+    ],
+    "in luogo di": [
+        "EXPANSION:Substitution:Arg1-as-subst"
+    ],
+    "in modo che": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "in modo da": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "in ogni caso": [
+        "EXPANSION: Conjunction"
+    ],
+    "in ogni modo": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "in più": [
+        "EXPANSION:Conjunction"
+    ],
+    "in poche parole": [
+        "EXPANSION:Specification:Arg1-as-detail(Summarization)"
+    ],
+    "in quanto": [
+        "CONTINGENCY:Cause:reason"
+    ],
+    "in quanto al resto": [
+        "EXPANSION:Exception:Arg1-as-except"
+    ],
+    "in realtà": [
+        "EXPANSION:Specification:Arg2-as-detail(Specification)"
+    ],
+    "in seguito": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "in seguito a": [
+        "CONTINGENCY:Cause:reason",
+        "TEMPORAL:Asynchronous:succession"
+    ],
+    "in seguito a ciò": [
+        "TEMPORAL:Asynchronous:precedence",
+        "CONTINGENCY:Cause:result"
+    ],
+    "in sintesi": [
+        "EXPANSION:Specification:Arg1-as-detail(Summarization)"
+    ],
+    "in sostanza": [
+        "EXPANSION:Specification:Arg1-as-detail(Summarization)"
+    ],
+    "in ultima analisi": [
+        ""
+    ],
+    "in verità": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "infatti": [
+        "EXPANSION:Instantiation"
+    ],
+    "infine": [
+        ""
+    ],
+    "innanzi tutto": [
+        ""
+    ],
+    "innanzitutto": [
+        ""
+    ],
+    "inoltre": [
+        "EXPANSION:Conjunction"
+    ],
+    "insomma": [
+        "EXPANSION:Specification:Arg1-as-detail(Summarization)"
+    ],
+    "intanto": [
+        "TEMPORAL:Syncrony"
+    ],
+    "invece": [
+        "COMPARISON:Contrast",
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "invece che": [
+        "EXPANSION:Substitution:Arg1-as-subst"
+    ],
+    "invece di": [
+        "EXPANSION:Substitution:Arg1-as-subst"
+    ],
+    "invero": [
+        ""
+    ],
+    "ma": [
+        "COMPARISON:Contrast",
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "malgrado": [
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "malgrado ciò": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "malgrado questo": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "mentre": [
+        "TEMPORAL:Syncrony",
+        "EXPANSION:Conjunction",
+        "COMPARISON:Contrast"
+    ],
+    "nel contempo": [
+        "TEMPORAL:Syncrony"
+    ],
+    "nel frattempo": [
+        "TEMPORAL:Syncrony"
+    ],
+    "non appena": [
+        "TEMPORAL:Syncrony",
+        "CONTINGENCY:Condition"
+    ],
+    "non per tanto": [
+        ""
+    ],
+    "non pertanto": [
+        ""
+    ],
+    "non prima di": [
+        "TEMPORAL:Asynchronous:succession"
+    ],
+    "nondimeno": [
+        "COMPARISON:Concession:Arg2-as-denier\n"
+    ],
+    "nonostante": [
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "nonostante ciò": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "nonpertanto": [
+        ""
+    ],
+    "né": [
+        "EXPANSION:Conjunction"
+    ],
+    "né ... né": [
+        "EXPANSION: Conjunction"
+    ],
+    "o": [
+        "EXPANSION:Disjunction",
+        "CONTINGENCY:Negative-Condition:Arg1-as-negcond"
+    ],
+    "o meglio": [
+        ""
+    ],
+    "ogni volta che": [
+        "TEMPORAL:Syncrony"
+    ],
+    "oltre a ciò": [
+        "EXPANSION: Conjunction"
+    ],
+    "oltre a questo": [
+        "EXPANSION: Conjunction"
+    ],
+    "oltretutto": [
+        "EXPANSION:Conjunction"
+    ],
+    "oppure": [
+        "EXPANSION:Disjunction",
+        "CONTINGENCY:Negative-Condition:Arg1-as-negcond"
+    ],
+    "ossia": [
+        "EXPANSION:Equivalence"
+    ],
+    "parimenti": [
+        "COMPARISON:Similarity"
+    ],
+    "per": [
+        "CONTINGENCY:Cause:reason",
+        "CONTINGENCY:Purpose:Arg2-as-goal"
+    ],
+    "per altro": [
+        ""
+    ],
+    "per contro": [
+        "COMPARISON:Concession:Arg2-as-denier",
+        "COMPARISON:Contrast"
+    ],
+    "per cui": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "per di più": [
+        "EXPANSION:Conjunction"
+    ],
+    "per esempio": [
+        "EXPANSION:Instantiation"
+    ],
+    "per giunta": [
+        "EXPANSION:Conjunction"
+    ],
+    "per il fatto che": [
+        "CONTINGENCY:Cause:reason"
+    ],
+    "per il resto": [
+        "EXPANSION:Exception:Arg1-as-except"
+    ],
+    "per la qual cosa": [
+        ""
+    ],
+    "per la verità": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "per meglio dire": [
+        ""
+    ],
+    "per poco che": [
+        ""
+    ],
+    "per prima cosa": [
+        ""
+    ],
+    "per quanto": [
+        "CONTINGENCY:Condition",
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "per questa ragione": [
+        "cCONTINGENCY:Cause:result"
+    ],
+    "per questo": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "per questo motivo": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "peraltro": [
+        ""
+    ],
+    "perché": [
+        "CONTINGENCY:Cause:reason"
+    ],
+    "perciò": [
+        "cCONTINGENCY:Cause:resulte"
+    ],
+    "perfino": [
+        "EXPANSION:Conjunction",
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "persino": [
+        "EXPANSION:Conjunction",
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "pertanto": [
+        "CONTINGENCY:Cause:result"
+    ],
+    "però": [
+        "COMPARISON:Contrast",
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "piuttosto": [
+        "EXPANSION:Substitution:Arg1-as-subst"
+    ],
+    "più che altro": [
+        ""
+    ],
+    "più tardi": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "poi": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "poiché": [
+        "CONTINGENCY:Cause:reason",
+        "consequence"
+    ],
+    "precedentemente": [
+        "TEMPORAL:Asynchronous:succession"
+    ],
+    "prima": [
+        "TEMPORAL:Asynchronous:succession"
+    ],
+    "prima che": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "prima di": [
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "purché": [
+        "CONTINGENCY:Condition"
+    ],
+    "pure": [
+        "EXPANSION:Conjunction",
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "quando": [
+        "TEMPORAL:Syncrony",
+        "CONTINGENCY:Condition",
+        "TEMPORAL:Asynchronous:succession"
+    ],
+    "quantunque": [
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "quindi": [
+        "CONTINGENCY:Cause:result",
+        "TEMPORAL:Asynchronous:precedence"
+    ],
+    "salvo che": [
+        "CONTINGENCY:Negative-Condition:Arg2-as-negcond"
+    ],
+    "se": [
+        "CONTINGENCY:Condition",
+        "consequence"
+    ],
+    "sebbene": [
+        "COMPARISON:Concession:Arg1-as-denier"
+    ],
+    "semmai": [
+        "EXPANSION: Conjunction"
+    ],
+    "sennonché": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "sennò": [
+        "CONTINGENCY:Negative-Condition:Arg1-as-negcond"
+    ],
+    "siccome": [
+        "CONTINGENCY:Cause:reason"
+    ],
+    "solamente": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "solo": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "sopra ogni altra cosa": [
+        ""
+    ],
+    "supposto che": [
+        "CONTINGENCY:Condition"
+    ],
+    "tanto più che": [
+        "EXPANSION:Conjunction",
+        "consequence"
+    ],
+    "tra l ' altro": [
+        ""
+    ],
+    "tra le altre cose": [
+        ""
+    ],
+    "tranne": [
+        "EXPANSION:Exception:Arg2-as-except"
+    ],
+    "tranne quando": [
+        "CONTINGENCY:Negative-Condition:Arg2-as-negcond"
+    ],
+    "tutt ' al più": [
+        ""
+    ],
+    "tuttalpiù": [
+        ""
+    ],
+    "tuttavia": [
+        "COMPARISON:Concession:Arg2-as-denier"
+    ],
+    "tutto sommato": [
+        ""
+    ],
+    "ugualmente": [
+        "COMPARISON:Similarity"
+    ],
+    "vale a dire": [
+        "EXPANSION:Specification:Arg2-as-detail(Specification)"
+    ],
+    "viceversa": [
+        "COMPARISON:Concession:Arg2-as-denier",
+        "COMPARISON:Contrast"
+    ]
+}
