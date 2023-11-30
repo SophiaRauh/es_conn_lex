@@ -1,0 +1,995 @@
+{
+    "a causa di (CONTINGENCY:Cause:reason)": {
+        "aufgrund (CONTINGENCY:Cause:Reason)": 0.06203605514316013,
+        "durch (CONTINGENCY:Cause:Reason)": 0.05143160127253447,
+        "infolge (CONTINGENCY:Cause:Reason)": 0.013255567338282079,
+        "wegen (CONTINGENCY:Cause:Reason)": 0.05090137857900318,
+        "weil (CONTINGENCY:Cause:Reason)": 0.02014846235418876
+    },
+    "a condizione che (CONTINGENCY:Condition)": {
+        "sofern (CONTINGENCY:Condition:Arg1-as-cond)": 0.036062378167641324,
+        "solange (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond, TEMPORAL:Asynchronous:Succession)": 0.01364522417153996,
+        "vorausgesetzt (CONTINGENCY:Condition:Arg1-as-cond)": 0.10916179337231968,
+        "vorausgesetzt , dass (CONTINGENCY:Condition:Arg1-as-cond)": 0.030214424951267055,
+        "vorausgesetzt , daß (CONTINGENCY:Condition:Arg1-as-cond)": 0.017543859649122806,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.05847953216374269
+    },
+    "a dire il vero (COMPARISON:Concession:Arg2-as-denier)": {},
+    "a dispetto di (COMPARISON:Concession:Arg1-as-denier)": {
+        "trotz (COMPARISON:Concession:Arg1-as-denier)": 0.1919191919191919
+    },
+    "a meno che (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": {
+        "außer (EXPANSION:Exception:Arg2-as-excpt)": 0.011538461538461539,
+        "es sei denn (CONTINGENCY:Negative-Condition:Arg1-as-negcond)": 0.14038461538461539,
+        "sofern (CONTINGENCY:Condition:Arg1-as-cond)": 0.03173076923076923,
+        "solange (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond, TEMPORAL:Asynchronous:Succession)": 0.032692307692307694,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.07115384615384615
+    },
+    "a meno di (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": {
+        "nur (COMPARISON:Contrast)": 0.013398294762484775,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.015834348355663823
+    },
+    "a onor del vero (COMPARISON:Concession:Arg2-as-denier)": {},
+    "a tal fine (CONTINGENCY:Purpose:Arg1-as-goal)": {
+        "dabei (TEMPORAL:Synchronous, COMPARISON:Concession:Arg1-as-denier, EXPANSION:Manner:Arg2-as-manner, COMPARISON:Concession:Arg2-as-denier)": 0.014705882352941176,
+        "dafür (COMPARISON:Contrast)": 0.06323529411764706,
+        "daher (CONTINGENCY:Cause:Result)": 0.011397058823529411,
+        "dazu (CONTINGENCY:Purpose:Arg1-as-goal, EXPANSION:Conjunction)": 0.10330882352941176,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.016176470588235296,
+        "hierfür (CONTINGENCY:Purpose:Arg1-as-goal)": 0.016544117647058824,
+        "hierzu (CONTINGENCY:Purpose:Arg1-as-goal)": 0.01213235294117647
+    },
+    "ad esempio (EXPANSION:Instantiation)": {
+        "beispielsweise (EXPANSION:Instantiation)": 0.31121263744773114,
+        "wie (TEMPORAL:Synchronous, COMPARISON:Similarity)": 0.024934179959733623,
+        "zum beispiel (EXPANSION:Instantiation)": 0.21867740436735325
+    },
+    "ad ogni modo (COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.036635006784260515,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.0407055630936228,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.023066485753052916,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.012890094979647219,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.05088195386702849,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.010854816824966078
+    },
+    "affinché (CONTINGENCY:Purpose:Arg2-as-goal)": {
+        "dafür (COMPARISON:Contrast)": 0.01684021082401337,
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.3033808972875691,
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.07648798046021339,
+        "daß (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.04383596863350045,
+        "für (CONTINGENCY:Purpose:Arg2-as-goal)": 0.027381411492479753,
+        "sodass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.01227664224193341
+    },
+    "al che (TEMPORAL:Asynchronous:precedence, CONTINGENCY:Cause:result)": {},
+    "al contrario (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": {
+        "dagegen (COMPARISON:Contrast)": 0.016381507098653075,
+        "hingegen (COMPARISON:Contrast)": 0.016745540589734254,
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.0389515835456862,
+        "stattdessen (EXPANSION:Substitution:Arg2-as-subst)": 0.028030578813250818,
+        "vielmehr (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.04768838733163451
+    },
+    "al massimo (EXPANSION:Exception:Arg2-as-excpt)": {
+        "höchstens (CONTINGENCY:Negative-Condition:Arg1-as-negcond)": 0.049575070821529746
+    },
+    "al posto di (EXPANSION:Substitution:Arg1-as-subst)": {},
+    "alla fin fine ()": {
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.07317073170731707
+    },
+    "alla fine (TEMPORAL:Asynchronous:Precedence)": {
+        "endlich (TEMPORAL:Asynchronous:Precedence)": 0.01198681450404555,
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.03206472879832185
+    },
+    "allo scopo di (CONTINGENCY:Purpose:Arg2-as-goal)": {
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.0327683615819209
+    },
+    "allo stesso modo (COMPARISON:Similarity)": {
+        "auch (EXPANSION:Conjunction)": 0.03617571059431524,
+        "ebenfalls (EXPANSION:Conjunction, COMPARISON:Similarity)": 0.012919896640826873,
+        "gleichermaßen (COMPARISON:Similarity)": 0.03875968992248062,
+        "gleichzeitig (COMPARISON:Contrast, EXPANSION:Conjunction, TEMPORAL:Synchronous)": 0.016795865633074936
+    },
+    "allora (TEMPORAL:Asynchronous:precedence, CONTINGENCY:Cause:result)": {
+        "also (CONTINGENCY:Cause:Result)": 0.05746677091477717,
+        "daher (CONTINGENCY:Cause:Result)": 0.021240552514985665,
+        "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": 0.3307271305707584,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.017982799061767005,
+        "seitdem (TEMPORAL:Asynchronous:Precedence, TEMPORAL:Asynchronous:Succession)": 0.010685431326557205
+    },
+    "altrimenti (CONTINGENCY:Negative-Condition:Arg1-as-negcond)": {
+        "anderenfalls (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": 0.05533951540532456,
+        "andernfalls (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": 0.15943763087047563,
+        "ansonsten (EXPANSION:Exception:Arg1-as-excpt, CONTINGENCY:Negative-Condition:Arg2-as-negcond)": 0.128926114268621,
+        "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": 0.011067903081064912,
+        "denn (CONTINGENCY:Cause:Reason)": 0.017947950942267425,
+        "oder (EXPANSION:Disjunction)": 0.01764881842656297,
+        "sonst (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": 0.254561770864493,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.026024528866287765
+    },
+    "anche (EXPANSION:Conjunction, COMPARISON:Concession:Arg1-as-denier)": {
+        "auch (EXPANSION:Conjunction)": 0.663346093045739,
+        "außerdem (EXPANSION:Conjunction)": 0.013992135139725383,
+        "ebenfalls (EXPANSION:Conjunction, COMPARISON:Similarity)": 0.0220921573494637
+    },
+    "anche se (COMPARISON:Concession:Arg1-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.017064846416382253,
+        "obgleich (COMPARISON:Concession:Arg1-as-denier, COMPARISON:Concession:Arg2-as-denier)": 0.02407041494521286,
+        "obwohl (COMPARISON:Concession:Arg1-as-denier)": 0.12924375785881084,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.013202802227411532,
+        "wenngleich (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.029549128794682952,
+        "zwar (COMPARISON:Concession:Arg1-as-denier)": 0.01742410634093767
+    },
+    "anzi (EXPANSION:Conjunction)": {
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.07268975005732631,
+        "stattdessen (EXPANSION:Substitution:Arg2-as-subst)": 0.010089429030038982,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.023159825728044026,
+        "vielmehr (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.053198807612932816
+    },
+    "anziché (EXPANSION:Substitution:Arg1-as-subst)": {
+        "als (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Succession)": 0.06417266187050359,
+        "anstatt (EXPANSION:Substitution:Arg1-as-subst)": 0.23280575539568346,
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.03683453237410072,
+        "statt (EXPANSION:Substitution:Arg1-as-subst)": 0.14820143884892087,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.021294964028776977
+    },
+    "benché (COMPARISON:Concession:Arg1-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.038558256496227995,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.013970382788488405,
+        "auch (EXPANSION:Conjunction)": 0.013690975132718636,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.013970382788488405,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.010058675607711651,
+        "obgleich (COMPARISON:Concession:Arg1-as-denier, COMPARISON:Concession:Arg2-as-denier)": 0.04498463257893266,
+        "obwohl (COMPARISON:Concession:Arg1-as-denier)": 0.32271584241408213,
+        "trotz (COMPARISON:Concession:Arg1-as-denier)": 0.02738195026543727,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.15954177144453757,
+        "wenngleich (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.032411288069293095,
+        "während (TEMPORAL:Synchronous, COMPARISON:Contrast)": 0.019837943559653536,
+        "zwar (COMPARISON:Concession:Arg1-as-denier)": 0.06929309863090248
+    },
+    "bensì (COMPARISON:Contrast)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.0186006581771355,
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.8061239089998569,
+        "vielmehr (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.017742166261267706
+    },
+    "cionondimeno (COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.07511737089201878,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.08215962441314555,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.24647887323943662,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.06572769953051644,
+        "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.04460093896713615,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.1784037558685446,
+        "nichtsdestotrotz (COMPARISON:Concession:Arg2-as-denier)": 0.05868544600938967,
+        "nichtsdestoweniger (COMPARISON:Concession:Arg2-as-denier)": 0.025821596244131457,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.09154929577464789
+    },
+    "ciononostante (COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.08506616257088846,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.08223062381852551,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.2452741020793951,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.04206049149338374,
+        "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.028827977315689982,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.1441398865784499,
+        "nichtsdestotrotz (COMPARISON:Concession:Arg2-as-denier)": 0.04158790170132325,
+        "trotz (COMPARISON:Concession:Arg1-as-denier)": 0.01606805293005671,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.16351606805293006
+    },
+    "cioè (EXPANSION:Equivalence, reformulation)": {
+        "also (CONTINGENCY:Cause:Result)": 0.10014443909484834,
+        "nämlich (CONTINGENCY:Cause:Reason, EXPANSION:Level-of-detail:Arg2-as-detail)": 0.2384849943829241,
+        "zwar (COMPARISON:Concession:Arg1-as-denier)": 0.02583854918953619
+    },
+    "ciò nondimeno (COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.043668122270742356,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.07860262008733625,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.20087336244541484,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.048034934497816595,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.048034934497816595,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.09606986899563319
+    },
+    "ciò nonostante (COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.04201680672268908,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.037815126050420166,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.19327731092436976,
+        "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.04201680672268908,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.03571428571428571,
+        "nichtsdestotrotz (COMPARISON:Concession:Arg2-as-denier)": 0.03571428571428571,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.17016806722689076
+    },
+    "come (TEMPORAL:Syncrony, addition)": {
+        "als (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Succession)": 0.15611424662219942,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.012710791859073029,
+        "wie (TEMPORAL:Synchronous, COMPARISON:Similarity)": 0.5470839746878742
+    },
+    "come conseguenza (TEMPORAL:Asynchronous:precedence, CONTINGENCY:Cause:result)": {
+        "aufgrund (CONTINGENCY:Cause:Reason)": 0.022222222222222223,
+        "durch (CONTINGENCY:Cause:Reason)": 0.024444444444444446,
+        "infolge (CONTINGENCY:Cause:Reason)": 0.08444444444444445
+    },
+    "comunque (EXPANSION:Conjunction, COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.09719660641829583,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.052010328292143124,
+        "auch (EXPANSION:Conjunction)": 0.023699741792696422,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.0632607893766138,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.04011434894872741,
+        "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.017890077462191074,
+        "immerhin (CONTINGENCY:Cause:Reason, COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.010051641460715603,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.13131685724824788,
+        "ohnehin (CONTINGENCY:Cause:Reason)": 0.016967908520841016,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.03439690151235707
+    },
+    "con ciò (consequence)": {
+        "dadurch (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner)": 0.021505376344086023,
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.21908602150537634
+    },
+    "con lo scopo di (CONTINGENCY:Purpose:Arg2-as-goal)": {},
+    "con questo (consequence)": {
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.12507956715467855
+    },
+    "con tutto questo (COMPARISON:Concession:Arg2-as-denier)": {},
+    "contrariamente a (COMPARISON:Contrast)": {
+        "entgegen (COMPARISON:Concession:Arg2-as-denier)": 0.0784313725490196,
+        "wie (TEMPORAL:Synchronous, COMPARISON:Similarity)": 0.03333333333333333
+    },
+    "cosicché (CONTINGENCY:Cause:result)": {
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.3585185185185185,
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.028148148148148148,
+        "daß (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.01925925925925926,
+        "sodass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.0725925925925926,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.03851851851851852
+    },
+    "così (CONTINGENCY:Cause:result)": {
+        "auch (EXPANSION:Conjunction)": 0.013139103113396172,
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.05001745533022311,
+        "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": 0.016820590942270463,
+        "somit (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner, EXPANSION:Level-of-detail:Arg1-as-detail, EXPANSION:Equivalence)": 0.016027166841219968,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.01710622361864864
+    },
+    "così che (CONTINGENCY:Cause:result)": {
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.0861344537815126,
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.03676470588235294,
+        "daß (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.014705882352941176,
+        "so dass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.04726890756302521,
+        "so daß (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.04411764705882353,
+        "sodass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.01680672268907563
+    },
+    "da allora (TEMPORAL:Asynchronous:precedence, CONTINGENCY:Cause:result)": {
+        "inzwischen (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Precedence)": 0.03561887800534283,
+        "seitdem (TEMPORAL:Asynchronous:Precedence, TEMPORAL:Asynchronous:Succession)": 0.327693677649154,
+        "seither (TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous)": 0.188780053428317
+    },
+    "da ciò (CONTINGENCY:Cause:result)": {
+        "daher (CONTINGENCY:Cause:Result)": 0.033123028391167195,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.031545741324921134
+    },
+    "da quando (TEMPORAL:Asynchronous:succession)": {
+        "als (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Succession)": 0.016771488469601678,
+        "nachdem (TEMPORAL:Asynchronous:Succession)": 0.02585604472396925,
+        "seit (TEMPORAL:Asynchronous:Succession)": 0.34311670160726765,
+        "seitdem (TEMPORAL:Asynchronous:Precedence, TEMPORAL:Asynchronous:Succession)": 0.07127882599580712
+    },
+    "da ultimo (TEMPORAL:Asynchronous:precedence)": {
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.10755616065350579,
+        "zuletzt (TEMPORAL:Asynchronous:Precedence)": 0.4029952348536419
+    },
+    "da una parte (COMPARISON:Contrast)": {
+        "einerseits (COMPARISON:Contrast)": 0.2904209884075656,
+        "zum einen (EXPANSION:Conjunction, COMPARISON:Contrast)": 0.04820012202562538
+    },
+    "dal momento che (CONTINGENCY:Cause:reason)": {
+        "da (CONTINGENCY:Cause:Reason, CONTINGENCY:Cause:Result)": 0.14248816185966423,
+        "denn (CONTINGENCY:Cause:Reason)": 0.0574687903572966,
+        "weil (CONTINGENCY:Cause:Reason)": 0.032285837279380114,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.010546706844597502
+    },
+    "del resto (CONTINGENCY:Cause:result)": {
+        "auch (EXPANSION:Conjunction)": 0.05055611729019211,
+        "außerdem (EXPANSION:Conjunction)": 0.013481631277384564,
+        "im übrigen (EXPANSION:Conjunction, EXPANSION:Exception:Arg1-as-excpt)": 0.18975396022918772,
+        "wie (TEMPORAL:Synchronous, COMPARISON:Similarity)": 0.012133468149646108
+    },
+    "di conseguenza (CONTINGENCY:Cause:result)": {
+        "also (CONTINGENCY:Cause:Result)": 0.022832980972515855,
+        "dadurch (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner)": 0.013389711064129669,
+        "daher (CONTINGENCY:Cause:Result)": 0.11331923890063425,
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.05623678646934461,
+        "dementsprechend (CONTINGENCY:Cause:Result)": 0.023960535588442564,
+        "demzufolge (CONTINGENCY:Cause:Result)": 0.028329809725158563,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.08893587033121916,
+        "entsprechend (CONTINGENCY:Cause:Reason)": 0.027202255109231854,
+        "folglich (CONTINGENCY:Cause:Result)": 0.08893587033121916,
+        "infolgedessen (CONTINGENCY:Cause:Result)": 0.02551092318534179,
+        "somit (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner, EXPANSION:Level-of-detail:Arg1-as-detail, EXPANSION:Equivalence)": 0.030162085976039463
+    },
+    "di fatto ()": {
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.021632937892533146
+    },
+    "di modo che (CONTINGENCY:Cause:result)": {
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.12885662431941924,
+        "so dass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.08711433756805807,
+        "so daß (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.11070780399274047,
+        "sodass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.021778584392014518
+    },
+    "difatti (EXPANSION:Instantiation)": {},
+    "dopo (TEMPORAL:Asynchronous:precedence)": {
+        "danach (TEMPORAL:Asynchronous:Precedence)": 0.015979107648725212,
+        "für (CONTINGENCY:Purpose:Arg2-as-goal)": 0.01509383852691218,
+        "nachdem (TEMPORAL:Asynchronous:Succession)": 0.05121281869688385,
+        "seit (TEMPORAL:Asynchronous:Succession)": 0.03660587818696884,
+        "später (TEMPORAL:Asynchronous:Precedence)": 0.027222025495750708,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.012128186968838528
+    },
+    "dopo di che (TEMPORAL:Asynchronous:precedence)": {},
+    "dopo di ciò (TEMPORAL:Asynchronous:precedence)": {},
+    "dopodiché (TEMPORAL:Asynchronous:precedence)": {
+        "anschließend (TEMPORAL:Asynchronous:Precedence, EXPANSION:Conjunction)": 0.07602339181286549,
+        "danach (TEMPORAL:Asynchronous:Precedence)": 0.21637426900584794,
+        "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": 0.4152046783625731
+    },
+    "dopotutto ()": {
+        "denn (CONTINGENCY:Cause:Reason)": 0.07391304347826087,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.02826086956521739,
+        "immerhin (CONTINGENCY:Cause:Reason, COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.08695652173913043,
+        "nämlich (CONTINGENCY:Cause:Reason, EXPANSION:Level-of-detail:Arg2-as-detail)": 0.05,
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.3652173913043478
+    },
+    "dunque (CONTINGENCY:Cause:result)": {
+        "also (CONTINGENCY:Cause:Result)": 0.21156842973691448,
+        "daher (CONTINGENCY:Cause:Result)": 0.2081767348061234,
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.024108534237785313,
+        "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": 0.011641763681364012,
+        "demnach (CONTINGENCY:Cause:Result)": 0.010266752222935192,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.09368411403428362,
+        "deswegen (CONTINGENCY:Cause:Result)": 0.014025116875973966,
+        "folglich (CONTINGENCY:Cause:Result)": 0.012008433403611697,
+        "somit (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner, EXPANSION:Level-of-detail:Arg1-as-detail, EXPANSION:Equivalence)": 0.032083600696672473
+    },
+    "e (EXPANSION:Conjunction, TEMPORAL:Asynchronous:precedence)": {
+        "sowie (EXPANSION:Conjunction)": 0.019547781294543577,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.8200613650148061
+    },
+    "ebbene ()": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.04212055192447349,
+        "also (CONTINGENCY:Cause:Result)": 0.026143790849673203,
+        "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": 0.025417574437182282,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.032679738562091505,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.027596223674655047,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.012345679012345678
+    },
+    "eccetto (EXPANSION:Exception:Arg2-as-except)": {
+        "ausgenommen (EXPANSION:Exception:Arg2-as-excpt)": 0.1038961038961039,
+        "außer (EXPANSION:Exception:Arg2-as-excpt)": 0.24025974025974026
+    },
+    "eppure (COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.16838487972508592,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.03917525773195876,
+        "dabei (TEMPORAL:Synchronous, COMPARISON:Concession:Arg1-as-denier, EXPANSION:Manner:Arg2-as-manner, COMPARISON:Concession:Arg2-as-denier)": 0.020962199312714775,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.1415807560137457,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.16460481099656357,
+        "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.016494845360824743,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.10790378006872853,
+        "obwohl (COMPARISON:Concession:Arg1-as-denier)": 0.013745704467353952,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.08109965635738832,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.03986254295532646
+    },
+    "fatto sta che ()": {},
+    "fin qui (EXPANSION:Conjunction)": {
+        "soweit (CONTINGENCY:Condition:Arg1-as-cond)": 0.04105571847507331
+    },
+    "fino a questo punto (EXPANSION:Conjunction)": {},
+    "frattanto (TEMPORAL:Syncrony)": {},
+    "fuorché (EXPANSION:Exception:Arg2-as-except)": {
+        "außer (EXPANSION:Exception:Arg2-as-excpt)": 0.7368421052631579
+    },
+    "giacché (CONTINGENCY:Cause:reason)": {
+        "da (CONTINGENCY:Cause:Reason, CONTINGENCY:Cause:Result)": 0.3325740318906606,
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.010630220197418374,
+        "denn (CONTINGENCY:Cause:Reason)": 0.2976461655277145,
+        "weil (CONTINGENCY:Cause:Reason)": 0.1404707668944571,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.012908124525436599
+    },
+    "in altre parole (EXPANSION:Equivalence)": {
+        "also (CONTINGENCY:Cause:Result)": 0.08029197080291971,
+        "anders gesagt (EXPANSION:Equivalence)": 0.058394160583941604,
+        "das heißt (EXPANSION:Equivalence, CONTINGENCY:Cause:Result)": 0.13329101872421453,
+        "mit anderen worten (EXPANSION:Equivalence)": 0.3097429387496033,
+        "nämlich (CONTINGENCY:Cause:Reason, EXPANSION:Level-of-detail:Arg2-as-detail)": 0.010155506188511583
+    },
+    "in altri termini (EXPANSION:Equivalence)": {
+        "also (CONTINGENCY:Cause:Result)": 0.0364656381486676,
+        "anders gesagt (EXPANSION:Equivalence)": 0.06451612903225806,
+        "das heißt (EXPANSION:Equivalence, CONTINGENCY:Cause:Result)": 0.091164095371669,
+        "mit anderen worten (EXPANSION:Equivalence)": 0.34081346423562414
+    },
+    "in base a (CONTINGENCY:Cause:reason)": {
+        "anhand (EXPANSION:Manner:Arg2-as-manner)": 0.010439970171513796,
+        "aufgrund (CONTINGENCY:Cause:Reason)": 0.018642803877703208,
+        "gemäß (CONTINGENCY:Cause:Result)": 0.011931394481730051
+    },
+    "in breve (EXPANSION:Specification:Arg1-as-detail(Summarization))": {
+        "kurz gesagt (EXPANSION:Level-of-detail:Arg1-as-detail)": 0.13376987839101964
+    },
+    "in caso contrario (CONTINGENCY:Negative-Condition:Arg1-as-negcond)": {
+        "anderenfalls (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": 0.04797047970479705,
+        "andernfalls (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": 0.17435424354243542,
+        "ansonsten (EXPANSION:Exception:Arg1-as-excpt, CONTINGENCY:Negative-Condition:Arg2-as-negcond)": 0.06457564575645756,
+        "sonst (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": 0.08579335793357934
+    },
+    "in conclusione (EXPANSION:Specification:Arg1-as-detail(Summarization))": {
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.07257383966244725
+    },
+    "in conseguenza di ciò (CONTINGENCY:Cause:result)": {},
+    "in definitiva ()": {
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.06920415224913495
+    },
+    "in fin dei conti ()": {
+        "immerhin (CONTINGENCY:Cause:Reason, COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.01772525849335303,
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.09896602658788774
+    },
+    "in luogo di (EXPANSION:Substitution:Arg1-as-subst)": {},
+    "in modo che (CONTINGENCY:Cause:result)": {
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.07931404072883172,
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.05359056806002144,
+        "daß (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.014546011330577247,
+        "so dass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.03858520900321544,
+        "so daß (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.02572347266881029,
+        "sodass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.011943040881947635
+    },
+    "in modo da (CONTINGENCY:Cause:result)": {
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.06458868894601542,
+        "so dass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.017834190231362467,
+        "so daß (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": 0.01462082262210797
+    },
+    "in ogni caso (EXPANSION: Conjunction)": {
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.011092150170648464,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.015358361774744027
+    },
+    "in ogni modo (COMPARISON:Concession:Arg2-as-denier)": {},
+    "in più (EXPANSION:Conjunction)": {
+        "zusätzlich (EXPANSION:Conjunction)": 0.02059732234809475
+    },
+    "in poche parole (EXPANSION:Specification:Arg1-as-detail(Summarization))": {
+        "kurz gesagt (EXPANSION:Level-of-detail:Arg1-as-detail)": 0.24878048780487805
+    },
+    "in quanto (CONTINGENCY:Cause:reason)": {
+        "als (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Succession)": 0.1646905658622774,
+        "da (CONTINGENCY:Cause:Reason, CONTINGENCY:Cause:Result)": 0.14520853675547496,
+        "denn (CONTINGENCY:Cause:Reason)": 0.1288417724461803,
+        "weil (CONTINGENCY:Cause:Reason)": 0.12679592690751848
+    },
+    "in seguito (TEMPORAL:Asynchronous:precedence)": {
+        "anschließend (TEMPORAL:Asynchronous:Precedence, EXPANSION:Conjunction)": 0.012242518460940537,
+        "aufgrund (CONTINGENCY:Cause:Reason)": 0.03050913330742324,
+        "danach (TEMPORAL:Asynchronous:Precedence)": 0.021764477263894286,
+        "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": 0.035367275553828216,
+        "durch (CONTINGENCY:Cause:Reason)": 0.023902059852312477,
+        "infolge (CONTINGENCY:Cause:Reason)": 0.02856587640886125,
+        "nachdem (TEMPORAL:Asynchronous:Succession)": 0.013602798289933929,
+        "seit (TEMPORAL:Asynchronous:Succession)": 0.01554605518849592,
+        "später (TEMPORAL:Asynchronous:Precedence)": 0.027594247959580258
+    },
+    "in seguito a (CONTINGENCY:Cause:reason, TEMPORAL:Asynchronous:succession)": {
+        "aufgrund (CONTINGENCY:Cause:Reason)": 0.023178807947019868,
+        "durch (CONTINGENCY:Cause:Reason)": 0.018211920529801324,
+        "infolge (CONTINGENCY:Cause:Reason)": 0.026490066225165563
+    },
+    "in seguito a ciò (TEMPORAL:Asynchronous:precedence, CONTINGENCY:Cause:result)": {},
+    "in sintesi (EXPANSION:Specification:Arg1-as-detail(Summarization))": {
+        "kurz gesagt (EXPANSION:Level-of-detail:Arg1-as-detail)": 0.13320825515947468
+    },
+    "in sostanza (EXPANSION:Specification:Arg1-as-detail(Summarization))": {
+        "kurz gesagt (EXPANSION:Level-of-detail:Arg1-as-detail)": 0.012048192771084338
+    },
+    "in ultima analisi ()": {
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.06102212051868802
+    },
+    "infatti (EXPANSION:Instantiation)": {
+        "da (CONTINGENCY:Cause:Reason, CONTINGENCY:Cause:Result)": 0.018683893850148837,
+        "denn (CONTINGENCY:Cause:Reason)": 0.13522072328836532,
+        "nämlich (CONTINGENCY:Cause:Reason, EXPANSION:Level-of-detail:Arg2-as-detail)": 0.10640319209576288,
+        "weil (CONTINGENCY:Cause:Reason)": 0.015897143580974094
+    },
+    "infine ()": {
+        "auch (EXPANSION:Conjunction)": 0.01214599609375,
+        "außerdem (EXPANSION:Conjunction)": 0.013427734375,
+        "endlich (TEMPORAL:Asynchronous:Precedence)": 0.0264892578125,
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.380615234375,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.0106201171875,
+        "zuletzt (TEMPORAL:Asynchronous:Precedence)": 0.01934814453125
+    },
+    "innanzi tutto ()": {
+        "erstens (EXPANSION:Conjunction)": 0.14012164902004956,
+        "zuerst (TEMPORAL:Asynchronous:Succession)": 0.043027708943455735,
+        "zum einen (EXPANSION:Conjunction, COMPARISON:Contrast)": 0.01317864383870241,
+        "zunächst (TEMPORAL:Asynchronous:Succession, EXPANSION:Conjunction)": 0.26233385897724715
+    },
+    "innanzitutto ()": {
+        "erstens (EXPANSION:Conjunction)": 0.13612917694550347,
+        "insbesondere (EXPANSION:Instantiation)": 0.014577259475218658,
+        "zuerst (TEMPORAL:Asynchronous:Succession)": 0.04462884054720789,
+        "zunächst (TEMPORAL:Asynchronous:Succession, EXPANSION:Conjunction)": 0.33864095088584883
+    },
+    "inoltre (EXPANSION:Conjunction)": {
+        "auch (EXPANSION:Conjunction)": 0.23252264424761046,
+        "außerdem (EXPANSION:Conjunction)": 0.15408096882349998,
+        "darüber hinaus (EXPANSION:Conjunction)": 0.0626782765350548,
+        "ebenfalls (EXPANSION:Conjunction, COMPARISON:Similarity)": 0.023570034529349946,
+        "ferner (EXPANSION:Conjunction)": 0.06703197718060351,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.02199369464044438,
+        "weiterhin (EXPANSION:Conjunction)": 0.01371165490667067,
+        "zudem (EXPANSION:Conjunction)": 0.06675674323174699
+    },
+    "insomma (EXPANSION:Specification:Arg1-as-detail(Summarization))": {
+        "also (CONTINGENCY:Cause:Result)": 0.18740849194729137
+    },
+    "intanto (TEMPORAL:Syncrony)": {
+        "inzwischen (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Precedence)": 0.11464968152866242,
+        "unterdessen (COMPARISON:Contrast, TEMPORAL:Synchronous)": 0.054140127388535034,
+        "zunächst (TEMPORAL:Asynchronous:Succession, EXPANSION:Conjunction)": 0.08598726114649681
+    },
+    "invece (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.04149791629981804,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.01655220989610847,
+        "anstatt (EXPANSION:Substitution:Arg1-as-subst)": 0.07436755297294124,
+        "dagegen (COMPARISON:Contrast)": 0.018958736866819276,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.017960908610670893,
+        "hingegen (COMPARISON:Contrast)": 0.03515877208428714,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.049304455009684806,
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.04085226272231027,
+        "statt (EXPANSION:Substitution:Arg1-as-subst)": 0.05088924106356753,
+        "stattdessen (EXPANSION:Substitution:Arg2-as-subst)": 0.04760227739625521,
+        "vielmehr (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.03034571814286553
+    },
+    "invece che (EXPANSION:Substitution:Arg1-as-subst)": {
+        "anstatt (EXPANSION:Substitution:Arg1-as-subst)": 0.06134969325153374,
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.04984662576687116,
+        "daß (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.032208588957055216,
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.026840490797546013,
+        "statt (EXPANSION:Substitution:Arg1-as-subst)": 0.040644171779141106,
+        "stattdessen (EXPANSION:Substitution:Arg2-as-subst)": 0.011503067484662576
+    },
+    "invece di (EXPANSION:Substitution:Arg1-as-subst)": {
+        "anstatt (EXPANSION:Substitution:Arg1-as-subst)": 0.11967213114754098,
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.026885245901639345,
+        "statt (EXPANSION:Substitution:Arg1-as-subst)": 0.06229508196721312
+    },
+    "invero ()": {
+        "zwar (COMPARISON:Concession:Arg1-as-denier)": 0.036101083032490974
+    },
+    "ma (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.4259885565162616,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.014413090265539816,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.09150287586894737,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.0727028668701397,
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.21328673950701532,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.022009583730155755
+    },
+    "malgrado (COMPARISON:Concession:Arg1-as-denier)": {
+        "auch (EXPANSION:Conjunction)": 0.011126564673157162,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.010662957811775614,
+        "entgegen (COMPARISON:Concession:Arg2-as-denier)": 0.010662957811775614,
+        "obgleich (COMPARISON:Concession:Arg1-as-denier, COMPARISON:Concession:Arg2-as-denier)": 0.017153453871117292,
+        "obwohl (COMPARISON:Concession:Arg1-as-denier)": 0.12285581826611033,
+        "trotz (COMPARISON:Concession:Arg1-as-denier)": 0.5567918405192397,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.02642559109874826,
+        "zwar (COMPARISON:Concession:Arg1-as-denier)": 0.01808066759388039
+    },
+    "malgrado ciò (COMPARISON:Concession:Arg2-as-denier)": {
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.28440366972477066,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.1651376146788991
+    },
+    "malgrado questo (COMPARISON:Concession:Arg2-as-denier)": {},
+    "mentre (TEMPORAL:Syncrony, EXPANSION:Conjunction, COMPARISON:Contrast)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.03457303974221267,
+        "als (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Succession)": 0.012285177228786252,
+        "da (CONTINGENCY:Cause:Reason, CONTINGENCY:Cause:Result)": 0.01456766917293233,
+        "obwohl (COMPARISON:Concession:Arg1-as-denier)": 0.03235767991407089,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.1724624060150376,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.01725295381310419,
+        "wobei (TEMPORAL:Synchronous, EXPANSION:Level-of-detail:Arg2-as-detail, COMPARISON:Concession:Arg2-as-denier, CONTINGENCY:Cause:Reason)": 0.01154672395273899,
+        "während (TEMPORAL:Synchronous, COMPARISON:Contrast)": 0.3517722878625134
+    },
+    "nel contempo (TEMPORAL:Syncrony)": {
+        "auch (EXPANSION:Conjunction)": 0.01340282948622487,
+        "gleichzeitig (COMPARISON:Contrast, EXPANSION:Conjunction, TEMPORAL:Synchronous)": 0.4486224869694713,
+        "zugleich (TEMPORAL:Synchronous, EXPANSION:Conjunction, COMPARISON:Contrast)": 0.09865971705137751
+    },
+    "nel frattempo (TEMPORAL:Syncrony)": {
+        "gleichzeitig (COMPARISON:Contrast, EXPANSION:Conjunction, TEMPORAL:Synchronous)": 0.02787769784172662,
+        "inzwischen (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Precedence)": 0.21762589928057555,
+        "unterdessen (COMPARISON:Contrast, TEMPORAL:Synchronous)": 0.03597122302158273,
+        "währenddessen (TEMPORAL:Synchronous, COMPARISON:Contrast)": 0.011241007194244604
+    },
+    "non appena (TEMPORAL:Syncrony, CONTINGENCY:Condition)": {
+        "sobald (TEMPORAL:Synchronous)": 0.45058626465661644,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.05108877721943048
+    },
+    "non per tanto ()": {},
+    "non prima di (TEMPORAL:Asynchronous:succession)": {},
+    "nondimeno (COMPARISON:Concession:Arg2-as-denier\n)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.13594344752582926,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.08809135399673736,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.21587819467101685,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.0413268080478521,
+        "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.01468189233278956,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.19630233822729745,
+        "nichtsdestotrotz (COMPARISON:Concession:Arg2-as-denier)": 0.027188689505165852,
+        "nichtsdestoweniger (COMPARISON:Concession:Arg2-as-denier)": 0.01468189233278956,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.09461663947797716
+    },
+    "nonostante (COMPARISON:Concession:Arg1-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.010590858416945374,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.014381270903010033,
+        "obgleich (COMPARISON:Concession:Arg1-as-denier, COMPARISON:Concession:Arg2-as-denier)": 0.013935340022296544,
+        "obwohl (COMPARISON:Concession:Arg1-as-denier)": 0.1565217391304348,
+        "trotz (COMPARISON:Concession:Arg1-as-denier)": 0.5181716833890747,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.01326644370122631,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.03745819397993311,
+        "zwar (COMPARISON:Concession:Arg1-as-denier)": 0.0137123745819398
+    },
+    "nonostante ciò (COMPARISON:Concession:Arg2-as-denier)": {
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.16516516516516516,
+        "dessen ungeachtet (COMPARISON:Concession:Arg2-as-denier, EXPANSION:Conjunction)": 0.036036036036036036,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.03003003003003003,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.2042042042042042
+    },
+    "né (EXPANSION:Conjunction)": {
+        "auch (EXPANSION:Conjunction)": 0.026564270426790885,
+        "noch (TEMPORAL:Synchronous, CONTINGENCY:Cause:Reason, EXPANSION:Conjunction)": 0.2430441898527005,
+        "oder (EXPANSION:Disjunction)": 0.12740778043560366,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.14333375299005413
+    },
+    "o (EXPANSION:Disjunction, CONTINGENCY:Negative-Condition:Arg1-as-negcond)": {
+        "oder (EXPANSION:Disjunction)": 0.7103451555756358,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.10648340803975888
+    },
+    "o meglio ()": {
+        "oder (EXPANSION:Disjunction)": 0.0625,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.023148148148148147
+    },
+    "ogni volta che (TEMPORAL:Syncrony)": {
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.03015075376884422
+    },
+    "oltre a ciò (EXPANSION: Conjunction)": {
+        "außerdem (EXPANSION:Conjunction)": 0.032448377581120944,
+        "darüber hinaus (EXPANSION:Conjunction)": 0.13864306784660768
+    },
+    "oltre a questo (EXPANSION: Conjunction)": {
+        "darüber hinaus (EXPANSION:Conjunction)": 0.08588957055214724
+    },
+    "oltretutto (EXPANSION:Conjunction)": {
+        "auch (EXPANSION:Conjunction)": 0.07861060329067641,
+        "außerdem (EXPANSION:Conjunction)": 0.14076782449725778,
+        "darüber hinaus (EXPANSION:Conjunction)": 0.04021937842778794,
+        "noch (TEMPORAL:Synchronous, CONTINGENCY:Cause:Reason, EXPANSION:Conjunction)": 0.027422303473491772,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.02376599634369287,
+        "zudem (EXPANSION:Conjunction)": 0.1206581352833638,
+        "zusätzlich (EXPANSION:Conjunction)": 0.02010968921389397,
+        "überdies (EXPANSION:Conjunction)": 0.018281535648994516
+    },
+    "oppure (EXPANSION:Disjunction, CONTINGENCY:Negative-Condition:Arg1-as-negcond)": {
+        "oder (EXPANSION:Disjunction)": 0.789449852841295,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.030563731039166854
+    },
+    "ossia (EXPANSION:Equivalence)": {
+        "also (CONTINGENCY:Cause:Result)": 0.10694387824432668,
+        "nämlich (CONTINGENCY:Cause:Reason, EXPANSION:Level-of-detail:Arg2-as-detail)": 0.23196086424785978,
+        "zwar (COMPARISON:Concession:Arg1-as-denier)": 0.021742084522353582
+    },
+    "parimenti (COMPARISON:Similarity)": {
+        "auch (EXPANSION:Conjunction)": 0.26825842696629215,
+        "außerdem (EXPANSION:Conjunction)": 0.0449438202247191,
+        "ebenfalls (EXPANSION:Conjunction, COMPARISON:Similarity)": 0.08707865168539326,
+        "ferner (EXPANSION:Conjunction)": 0.016853932584269662,
+        "gleichermaßen (COMPARISON:Similarity)": 0.07303370786516854
+    },
+    "per (CONTINGENCY:Cause:reason, CONTINGENCY:Purpose:Arg2-as-goal)": {
+        "für (CONTINGENCY:Purpose:Arg2-as-goal)": 0.3610767886078406
+    },
+    "per altro ()": {
+        "im übrigen (EXPANSION:Conjunction, EXPANSION:Exception:Arg1-as-excpt)": 0.06790123456790123
+    },
+    "per contro (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": {
+        "andererseits (COMPARISON:Contrast, EXPANSION:Conjunction)": 0.04112554112554113,
+        "dagegen (COMPARISON:Contrast)": 0.08008658008658008,
+        "hingegen (COMPARISON:Contrast)": 0.10606060606060606
+    },
+    "per cui (CONTINGENCY:Cause:result)": {
+        "daher (CONTINGENCY:Cause:Result)": 0.0112431737873434,
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.027947317699967878,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.05214691080415462,
+        "für (CONTINGENCY:Purpose:Arg2-as-goal)": 0.014562587000749545,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.011992718706499626,
+        "warum (CONTINGENCY:Cause:Result)": 0.058464503694185675,
+        "weshalb (CONTINGENCY:Cause:Result)": 0.06467501873862298
+    },
+    "per di più (EXPANSION:Conjunction)": {
+        "außerdem (EXPANSION:Conjunction)": 0.05752212389380531,
+        "darüber hinaus (EXPANSION:Conjunction)": 0.09587020648967552,
+        "zudem (EXPANSION:Conjunction)": 0.05457227138643068
+    },
+    "per esempio (EXPANSION:Instantiation)": {
+        "beispielsweise (EXPANSION:Instantiation)": 0.2826269212855147,
+        "wie (TEMPORAL:Synchronous, COMPARISON:Similarity)": 0.020214252445272474,
+        "zum beispiel (EXPANSION:Instantiation)": 0.22217047042384722
+    },
+    "per giunta (EXPANSION:Conjunction)": {
+        "außerdem (EXPANSION:Conjunction)": 0.091324200913242,
+        "zudem (EXPANSION:Conjunction)": 0.0684931506849315
+    },
+    "per il fatto che (CONTINGENCY:Cause:reason)": {
+        "dafür , dass (COMPARISON:Contrast)": 0.012048192771084338,
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.1153184165232358,
+        "daß (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.03270223752151463,
+        "weil (CONTINGENCY:Cause:Reason)": 0.01835915088927137
+    },
+    "per il resto (EXPANSION:Exception:Arg1-as-except)": {
+        "ansonsten (EXPANSION:Exception:Arg1-as-excpt, CONTINGENCY:Negative-Condition:Arg2-as-negcond)": 0.15701219512195122,
+        "im übrigen (EXPANSION:Conjunction, EXPANSION:Exception:Arg1-as-excpt)": 0.14329268292682926
+    },
+    "per la qual cosa ()": {},
+    "per meglio dire ()": {},
+    "per poco che ()": {},
+    "per prima cosa ()": {
+        "erstens (EXPANSION:Conjunction)": 0.0463768115942029,
+        "zuerst (TEMPORAL:Asynchronous:Succession)": 0.043478260869565216,
+        "zunächst (TEMPORAL:Asynchronous:Succession, EXPANSION:Conjunction)": 0.25507246376811593
+    },
+    "per quanto (CONTINGENCY:Condition, COMPARISON:Concession:Arg1-as-denier)": {
+        "für (CONTINGENCY:Purpose:Arg2-as-goal)": 0.033261598835369326,
+        "soweit (CONTINGENCY:Condition:Arg1-as-cond)": 0.011551364010380405,
+        "wie (TEMPORAL:Synchronous, COMPARISON:Similarity)": 0.012785619342996392
+    },
+    "per questa ragione (cCONTINGENCY:Cause:result)": {
+        "daher (CONTINGENCY:Cause:Result)": 0.09195402298850575,
+        "darum (CONTINGENCY:Cause:Result)": 0.01856763925729443,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.27365163572060125,
+        "deswegen (CONTINGENCY:Cause:Result)": 0.06763925729442971
+    },
+    "per questo (CONTINGENCY:Cause:result)": {
+        "dafür (COMPARISON:Contrast)": 0.020284555168276097,
+        "daher (CONTINGENCY:Cause:Result)": 0.07548140106279641,
+        "darum (CONTINGENCY:Cause:Result)": 0.017141877606993886,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.23484372321581623,
+        "deswegen (CONTINGENCY:Cause:Result)": 0.04759728015541969
+    },
+    "per questo motivo (CONTINGENCY:Cause:result)": {
+        "daher (CONTINGENCY:Cause:Result)": 0.09965064049243054,
+        "darum (CONTINGENCY:Cause:Result)": 0.022458825486607884,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.30111462319081683,
+        "deswegen (CONTINGENCY:Cause:Result)": 0.0627183496922309
+    },
+    "peraltro ()": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.021319287684976172,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.040130423877602205,
+        "auch (EXPANSION:Conjunction)": 0.0890393779784299,
+        "außerdem (EXPANSION:Conjunction)": 0.026084775520441434,
+        "im übrigen (EXPANSION:Conjunction, EXPANSION:Exception:Arg1-as-excpt)": 0.07198394783044897,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.0290945573112616,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.013544018058690745,
+        "zudem (EXPANSION:Conjunction)": 0.018811136192626036
+    },
+    "perché (CONTINGENCY:Cause:reason)": {
+        "da (CONTINGENCY:Cause:Reason, CONTINGENCY:Cause:Result)": 0.10416077929418023,
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.015692271888558273,
+        "dass (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Reason)": 0.013963462273717107,
+        "denn (CONTINGENCY:Cause:Reason)": 0.2069584586997357,
+        "warum (CONTINGENCY:Cause:Result)": 0.09476868859816813,
+        "weil (CONTINGENCY:Cause:Reason)": 0.3165550143790415,
+        "weshalb (CONTINGENCY:Cause:Result)": 0.018634572867662947
+    },
+    "perciò (cCONTINGENCY:Cause:resulte)": {
+        "also (CONTINGENCY:Cause:Result)": 0.07393507224620004,
+        "daher (CONTINGENCY:Cause:Result)": 0.2403828110339651,
+        "darum (CONTINGENCY:Cause:Result)": 0.026458997935822855,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.2989303809345093,
+        "deswegen (CONTINGENCY:Cause:Result)": 0.04916494651904672,
+        "somit (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner, EXPANSION:Level-of-detail:Arg1-as-detail, EXPANSION:Equivalence)": 0.018577594295364985
+    },
+    "perfino (EXPANSION:Conjunction, COMPARISON:Concession:Arg1-as-denier)": {
+        "auch (EXPANSION:Conjunction)": 0.09428950863213811,
+        "noch (TEMPORAL:Synchronous, CONTINGENCY:Cause:Reason, EXPANSION:Conjunction)": 0.02257636122177955
+    },
+    "persino (EXPANSION:Conjunction, COMPARISON:Concession:Arg1-as-denier)": {
+        "auch (EXPANSION:Conjunction)": 0.1314066380672838,
+        "noch (TEMPORAL:Synchronous, CONTINGENCY:Cause:Reason, EXPANSION:Conjunction)": 0.03386769022352676
+    },
+    "pertanto (CONTINGENCY:Cause:result)": {
+        "also (CONTINGENCY:Cause:Result)": 0.08445832185385864,
+        "daher (CONTINGENCY:Cause:Result)": 0.30734380261425903,
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.015979428781338966,
+        "darum (CONTINGENCY:Cause:Result)": 0.01867327884409343,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.23803838736339425,
+        "deswegen (CONTINGENCY:Cause:Result)": 0.03208130529280313,
+        "folglich (CONTINGENCY:Cause:Result)": 0.018887562371812532,
+        "somit (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner, EXPANSION:Level-of-detail:Arg1-as-detail, EXPANSION:Equivalence)": 0.024673217620228366
+    },
+    "però (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.3214755021588136,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.08672798948751642,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.01989862962267693,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.06800262812089355,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.2560071334709968
+    },
+    "piuttosto (EXPANSION:Substitution:Arg1-as-subst)": {
+        "als (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Succession)": 0.03540051679586563,
+        "anstatt (EXPANSION:Substitution:Arg1-as-subst)": 0.04521963824289406,
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.06472868217054263,
+        "statt (EXPANSION:Substitution:Arg1-as-subst)": 0.02648578811369509,
+        "stattdessen (EXPANSION:Substitution:Arg2-as-subst)": 0.014857881136950904,
+        "vielmehr (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.08837209302325581
+    },
+    "più che altro ()": {},
+    "più tardi (TEMPORAL:Asynchronous:precedence)": {
+        "danach (TEMPORAL:Asynchronous:Precedence)": 0.012100259291270527,
+        "nachher (TEMPORAL:Asynchronous:Precedence)": 0.010371650821089023,
+        "noch (TEMPORAL:Synchronous, CONTINGENCY:Cause:Reason, EXPANSION:Conjunction)": 0.016421780466724288,
+        "später (TEMPORAL:Asynchronous:Precedence)": 0.24546240276577355
+    },
+    "poi (TEMPORAL:Asynchronous:precedence)": {
+        "anschließend (TEMPORAL:Asynchronous:Precedence, EXPANSION:Conjunction)": 0.02667654686921082,
+        "auch (EXPANSION:Conjunction)": 0.041200444609114484,
+        "außerdem (EXPANSION:Conjunction)": 0.016895146350500184,
+        "danach (TEMPORAL:Asynchronous:Precedence)": 0.025787328640237125,
+        "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": 0.2754353464246017,
+        "ferner (EXPANSION:Conjunction)": 0.01393108558725454,
+        "noch (TEMPORAL:Synchronous, CONTINGENCY:Cause:Reason, EXPANSION:Conjunction)": 0.012300852167469433,
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.011782141533901445,
+        "später (TEMPORAL:Asynchronous:Precedence)": 0.03623564283067803,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.012597258243793997,
+        "zweitens (TEMPORAL:Asynchronous:Precedence, EXPANSION:Conjunction)": 0.011856243052982586
+    },
+    "poiché (CONTINGENCY:Cause:reason, consequence)": {
+        "da (CONTINGENCY:Cause:Reason, CONTINGENCY:Cause:Result)": 0.3587873375012404,
+        "denn (CONTINGENCY:Cause:Reason)": 0.2467996427508187,
+        "weil (CONTINGENCY:Cause:Reason)": 0.1703383943634018
+    },
+    "precedentemente (TEMPORAL:Asynchronous:succession)": {
+        "vorher (TEMPORAL:Asynchronous:Succession)": 0.0821917808219178,
+        "zuvor (TEMPORAL:Asynchronous:Succession)": 0.1613394216133942
+    },
+    "prima (TEMPORAL:Asynchronous:succession)": {
+        "bevor (TEMPORAL:Asynchronous:Precedence)": 0.10076254050235096,
+        "bis (TEMPORAL:Asynchronous:Precedence)": 0.017492143152970985,
+        "ehe (TEMPORAL:Asynchronous:Precedence)": 0.013594172533924526,
+        "erstens (EXPANSION:Conjunction)": 0.014300679708626696,
+        "vorher (TEMPORAL:Asynchronous:Succession)": 0.010329622140473116,
+        "zuerst (TEMPORAL:Asynchronous:Succession)": 0.01191317270446074,
+        "zunächst (TEMPORAL:Asynchronous:Succession, EXPANSION:Conjunction)": 0.027237069700587133,
+        "zuvor (TEMPORAL:Asynchronous:Succession)": 0.010427071405949277
+    },
+    "prima che (TEMPORAL:Asynchronous:precedence)": {
+        "bevor (TEMPORAL:Asynchronous:Precedence)": 0.26453697056712133,
+        "bis (TEMPORAL:Asynchronous:Precedence)": 0.032663316582914576,
+        "ehe (TEMPORAL:Asynchronous:Precedence)": 0.03445800430725054
+    },
+    "prima di (TEMPORAL:Asynchronous:precedence)": {
+        "bevor (TEMPORAL:Asynchronous:Precedence)": 0.18055216222819448,
+        "bis (TEMPORAL:Asynchronous:Precedence)": 0.01221597849987784,
+        "ehe (TEMPORAL:Asynchronous:Precedence)": 0.0197898851698021,
+        "erstens (EXPANSION:Conjunction)": 0.022843879794771562,
+        "zuerst (TEMPORAL:Asynchronous:Succession)": 0.011971658929880283,
+        "zunächst (TEMPORAL:Asynchronous:Succession, EXPANSION:Conjunction)": 0.08306865379916932
+    },
+    "purché (CONTINGENCY:Condition)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.021889400921658985,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.018433179723502304,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.01152073732718894,
+        "sofern (CONTINGENCY:Condition:Arg1-as-cond)": 0.22926267281105991,
+        "solange (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond, TEMPORAL:Asynchronous:Succession)": 0.08755760368663594,
+        "vorausgesetzt (CONTINGENCY:Condition:Arg1-as-cond)": 0.18778801843317972,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.1912442396313364
+    },
+    "pure (EXPANSION:Conjunction, COMPARISON:Concession:Arg1-as-denier)": {
+        "auch (EXPANSION:Conjunction)": 0.39090262970859985,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.01101634683724236,
+        "ebenfalls (EXPANSION:Conjunction, COMPARISON:Similarity)": 0.04157782515991471,
+        "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.01101634683724236,
+        "sowie (EXPANSION:Conjunction)": 0.024520255863539446,
+        "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": 0.03837953091684435
+    },
+    "quando (TEMPORAL:Syncrony, CONTINGENCY:Condition, TEMPORAL:Asynchronous:succession)": {
+        "als (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Succession)": 0.1456481013411044,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.4180915281453507,
+        "wo (TEMPORAL:Synchronous, CONTINGENCY:Cause:Reason)": 0.013648933955811947,
+        "während (TEMPORAL:Synchronous, COMPARISON:Contrast)": 0.011091617354069404
+    },
+    "quantunque (COMPARISON:Concession:Arg1-as-denier)": {
+        "obwohl (COMPARISON:Concession:Arg1-as-denier)": 0.23684210526315788,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.23684210526315788,
+        "wenngleich (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.09649122807017543
+    },
+    "quindi (CONTINGENCY:Cause:result, TEMPORAL:Asynchronous:precedence)": {
+        "also (CONTINGENCY:Cause:Result)": 0.13964287546821283,
+        "daher (CONTINGENCY:Cause:Result)": 0.22012417261019038,
+        "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": 0.04004823233618965,
+        "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": 0.019113345990045667,
+        "deshalb (CONTINGENCY:Cause:Result)": 0.14205449227769512,
+        "deswegen (CONTINGENCY:Cause:Result)": 0.01400790189337575,
+        "folglich (CONTINGENCY:Cause:Result)": 0.015495920775822259,
+        "somit (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner, EXPANSION:Level-of-detail:Arg1-as-detail, EXPANSION:Equivalence)": 0.04546154240853815
+    },
+    "salvo che (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": {},
+    "se (CONTINGENCY:Condition, consequence)": {
+        "falls (CONTINGENCY:Condition:Arg1-as-cond)": 0.012330280121112867,
+        "ob ()": 0.13761354331308437,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.5297450155199664
+    },
+    "sebbene (COMPARISON:Concession:Arg1-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.051157967507777395,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.016246111303145523,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.010024196335983409,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.010888351192533702,
+        "obgleich (COMPARISON:Concession:Arg1-as-denier, COMPARISON:Concession:Arg2-as-denier)": 0.05236778430694781,
+        "obwohl (COMPARISON:Concession:Arg1-as-denier)": 0.3365019011406844,
+        "trotz (COMPARISON:Concession:Arg1-as-denier)": 0.021776702385067404,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.1776702385067404,
+        "wenngleich (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.042343587970964394,
+        "während (TEMPORAL:Synchronous, COMPARISON:Contrast)": 0.02246802627030764,
+        "zwar (COMPARISON:Concession:Arg1-as-denier)": 0.08053923263048739
+    },
+    "semmai (EXPANSION: Conjunction)": {
+        "allenfalls (EXPANSION:Instantiation)": 0.1130952380952381,
+        "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.05952380952380952,
+        "vielmehr (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": 0.11904761904761904,
+        "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": 0.07738095238095238
+    },
+    "sennonché (COMPARISON:Concession:Arg2-as-denier)": {},
+    "sennò (CONTINGENCY:Negative-Condition:Arg1-as-negcond)": {},
+    "siccome (CONTINGENCY:Cause:reason)": {
+        "da (CONTINGENCY:Cause:Reason, CONTINGENCY:Cause:Result)": 0.6164772727272727,
+        "denn (CONTINGENCY:Cause:Reason)": 0.07386363636363637,
+        "weil (CONTINGENCY:Cause:Reason)": 0.09375
+    },
+    "solamente (COMPARISON:Concession:Arg2-as-denier)": {
+        "allein (COMPARISON:Contrast)": 0.02564102564102564,
+        "nur (COMPARISON:Contrast)": 0.6603550295857988
+    },
+    "solo (COMPARISON:Concession:Arg2-as-denier)": {
+        "allein (COMPARISON:Contrast)": 0.026367276783265375,
+        "nur (COMPARISON:Contrast)": 0.6812704565817623
+    },
+    "sopra ogni altra cosa ()": {},
+    "supposto che (CONTINGENCY:Condition)": {},
+    "tanto più che (EXPANSION:Conjunction, consequence)": {
+        "umso mehr (CONTINGENCY:Cause:Reason)": 0.04809286898839138,
+        "zumal (EXPANSION:Level-of-detail:Arg2-as-detail, CONTINGENCY:Cause:Reason)": 0.17744610281923714
+    },
+    "tra le altre cose ()": {},
+    "tranne (EXPANSION:Exception:Arg2-as-except)": {
+        "ausgenommen (EXPANSION:Exception:Arg2-as-excpt)": 0.053388090349075976,
+        "außer (EXPANSION:Exception:Arg2-as-excpt)": 0.33675564681724846,
+        "bis (TEMPORAL:Asynchronous:Precedence)": 0.06981519507186858,
+        "nur (COMPARISON:Contrast)": 0.055441478439425054
+    },
+    "tranne quando (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": {},
+    "tuttavia (COMPARISON:Concession:Arg2-as-denier)": {
+        "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": 0.2399712663030058,
+        "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.1254405459402429,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.05731025658293488,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.07378723595303836,
+        "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.0130424046512672,
+        "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": 0.3157788403259479,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.018811592250881092
+    },
+    "tutto sommato ()": {
+        "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": 0.04819277108433735
+    },
+    "ugualmente (COMPARISON:Similarity)": {
+        "auch (EXPANSION:Conjunction)": 0.15250291036088476,
+        "dennoch (COMPARISON:Concession:Arg2-as-denier)": 0.050058207217694994,
+        "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": 0.012805587892898719,
+        "ebenfalls (EXPANSION:Conjunction, COMPARISON:Similarity)": 0.10593713620488941,
+        "gleichermaßen (COMPARISON:Similarity)": 0.07683352735739232,
+        "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.011641443538998836,
+        "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": 0.033760186263096625
+    },
+    "vale a dire (EXPANSION:Specification:Arg2-as-detail(Specification))": {
+        "also (CONTINGENCY:Cause:Result)": 0.0557061868375647,
+        "das heißt (EXPANSION:Equivalence, CONTINGENCY:Cause:Result)": 0.070495439980281,
+        "nämlich (CONTINGENCY:Cause:Reason, EXPANSION:Level-of-detail:Arg2-as-detail)": 0.15873798373182155,
+        "und zwar (EXPANSION:Level-of-detail:Arg2-as-detail)": 0.015528715799852107
+    },
+    "viceversa (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": {
+        "andererseits (COMPARISON:Contrast, EXPANSION:Conjunction)": 0.027722772277227723,
+        "hingegen (COMPARISON:Contrast)": 0.06732673267326733
+    }
+}

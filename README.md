@@ -72,6 +72,7 @@ python conn_align.py -s de -t fr -tl fr_lex.xml alignment.txt german.txt french.
 
 #### Notes
 The folder *help\_functions* includes files to extract text examples from the corpus and a simple tokenizer for Italian and Spanish. They can be used separately.
+Output files related to the bachelor thesis can be found in *results*. They include the new Spanish connective lexicon as XML and CSV file, as well as the connective aligments for German-Spanish, Spanish-German, Italian-Spanish, Spanish-Italian, German-Italian, and Italian-German.
 
 ## References
 This work is based on the connective lexicons DiMLex and LICO.

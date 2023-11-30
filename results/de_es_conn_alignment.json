@@ -1,0 +1,1133 @@
+{
+    "aber (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Contrast, EXPANSION:Conjunction)": {
+        "": 0.09173634065720397,
+        "aunque": 0.020377211744118218,
+        "no obstante": 0.011442737701730507,
+        "pero": 0.6240132218549485,
+        "sin embargo": 0.054258215049581955,
+        "y": 0.03225743729340852
+    },
+    "abgesehen davon (EXPANSION:Conjunction, EXPANSION:Exception:Arg1-as-excpt, COMPARISON:Concession:Arg1-as-denier, COMPARISON:Concession:Arg2-as-denier)": {
+        "": 0.027422303473491772,
+        "además": 0.043875685557586835,
+        "además de": 0.09323583180987204,
+        "aparte de": 0.10420475319926874,
+        "por otra parte*": 0.018281535648994516
+    },
+    "allenfalls (EXPANSION:Instantiation)": {
+        "": 0.29931972789115646,
+        "en cualquier caso*": 0.08163265306122448,
+        "en todo caso*": 0.09523809523809523
+    },
+    "allerdings (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": {
+        "": 0.12002630713581058,
+        "ahora bien": 0.010654390003288392,
+        "aunque": 0.026570207168694508,
+        "no obstante": 0.11601446892469583,
+        "pero": 0.14876685300887865,
+        "sin embargo": 0.30141400854981915
+    },
+    "als (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Succession)": {
+        "": 0.06737546131606646,
+        "cuando": 0.0392634930785936
+    },
+    "also (CONTINGENCY:Cause:Result)": {
+        "": 0.23555440993255145,
+        "así pues": 0.03097478197362203,
+        "en consecuencia*": 0.011126863427417623,
+        "entonces": 0.01353267173604846,
+        "es decir": 0.07281866219873695,
+        "de modo que*": 0.01602440176998754,
+        "o sea": 0.011857198092537697,
+        "en otras palabras*": 0.010095802723718692,
+        "por consiguiente": 0.03037332989646432,
+        "por lo tanto": 0.03179103836405035,
+        "por tanto": 0.07861837865704344,
+        "pues": 0.056837221291403534
+    },
+    "anderenfalls (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": {
+        "": 0.04477611940298507,
+        "en caso contrario*": 0.0955223880597015,
+        "de lo contrario*": 0.4388059701492537,
+        "de otro modo*": 0.08955223880597014
+    },
+    "andererseits (COMPARISON:Contrast, EXPANSION:Conjunction)": {
+        "": 0.1640530759951749,
+        "en cambio*": 0.0122350508357746,
+        "por otra parte": 0.20420472169567466,
+        "por otro lado": 0.17559882819231432
+    },
+    "andernfalls (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": {
+        "": 0.045155221072436504,
+        "en caso contrario*": 0.055503292568203196,
+        "de lo contrario*": 0.4299153339604892,
+        "de otro modo*": 0.05456255879586077
+    },
+    "anders gesagt (EXPANSION:Equivalence)": {
+        "en otras palabras": 0.35789473684210527,
+        "es decir": 0.18157894736842106
+    },
+    "anlässlich (CONTINGENCY:Cause:Result, CONTINGENCY:Cause:Reason, TEMPORAL:Synchronous)": {
+        "": 0.06698564593301436,
+        "cuando": 0.02751196172248804
+    },
+    "anschließend (TEMPORAL:Asynchronous:Precedence, EXPANSION:Conjunction)": {
+        "": 0.1461736887360275,
+        "a continuación*": 0.1289767841788478,
+        "después": 0.1951848667239897,
+        "entonces": 0.024935511607910577,
+        "luego": 0.12639724849527084,
+        "posteriormente": 0.13241616509028376,
+        "más tarde*": 0.01117798796216681
+    },
+    "ansonsten (EXPANSION:Exception:Arg1-as-excpt, CONTINGENCY:Negative-Condition:Arg2-as-negcond)": {
+        "": 0.1184593023255814,
+        "en caso contrario*": 0.02688953488372093,
+        "de lo contrario*": 0.21075581395348839,
+        "de otro modo*": 0.050872093023255814,
+        "por lo demás": 0.11555232558139535,
+        "por otra parte*": 0.012354651162790697
+    },
+    "anstatt (EXPANSION:Substitution:Arg1-as-subst)": {
+        "": 0.034779932286857496,
+        "en lugar de*": 0.3838104032009849,
+        "en vez de*": 0.12742382271468145
+    },
+    "auch (EXPANSION:Conjunction)": {
+        "": 0.2573722109778814,
+        "además": 0.012825268318644013,
+        "asimismo": 0.01805859063162733,
+        "incluso": 0.01889721238902373,
+        "también": 0.4107996742277019
+    },
+    "auf ... hin (CONTINGENCY:Cause:Reason, CONTINGENCY:Purpose:Arg1-as-goal)": {
+        "": 0.4621620260812648,
+        "para": 0.011051810080056393,
+        "por": 0.013040632395146266
+    },
+    "auf grund (CONTINGENCY:Cause:Reason)": {
+        "": 0.0655307994757536,
+        "a causa de*": 0.061598951507208385,
+        "como consecuencia de*": 0.028833551769331587,
+        "debido a": 0.0799475753604194,
+        "por": 0.10878112712975098
+    },
+    "aufgrund (CONTINGENCY:Cause:Reason)": {
+        "": 0.0935014860631376,
+        "a causa de*": 0.025303237207807857,
+        "como consecuencia de*": 0.012932765683990682,
+        "debido a": 0.12515061450718934,
+        "por": 0.1568800706884087,
+        "porque": 0.011326210940637802
+    },
+    "ausgenommen (EXPANSION:Exception:Arg2-as-excpt)": {
+        "": 0.1381668946648427,
+        "excepto": 0.047879616963064295,
+        "salvo": 0.046511627906976744
+    },
+    "außer (EXPANSION:Exception:Arg2-as-excpt)": {
+        "": 0.2751736111111111,
+        "además de": 0.06481481481481481,
+        "aparte de": 0.048032407407407406,
+        "excepto": 0.057291666666666664,
+        "salvo": 0.05642361111111111
+    },
+    "außerdem (EXPANSION:Conjunction)": {
+        "": 0.07488738738738739,
+        "además": 0.3009572072072072,
+        "asimismo": 0.10128096846846847,
+        "igualmente": 0.014287725225225225,
+        "por otra parte": 0.03075731981981982,
+        "también": 0.32425394144144143,
+        "y": 0.02702702702702703
+    },
+    "beispielsweise (EXPANSION:Instantiation)": {
+        "": 0.11334537097833224,
+        "por ejemplo": 0.5277413000656599
+    },
+    "besonders (EXPANSION:Instantiation, EXPANSION:Level-of-detail)": {
+        "": 0.07682345322893978,
+        "sobre todo": 0.022958733148878554
+    },
+    "bevor (TEMPORAL:Asynchronous:Precedence)": {
+        "": 0.05042798660215854,
+        "antes de*": 0.8048008931894306,
+        "hasta que*": 0.021585411239300335
+    },
+    "beziehungsweise (EXPANSION:Level-of-detail:Arg2-as-detail, EXPANSION:Disjunction, EXPANSION:Conjunction)": {
+        "": 0.12098765432098765,
+        "o": 0.5382716049382716,
+        "y": 0.21975308641975308
+    },
+    "bis (TEMPORAL:Asynchronous:Precedence)": {
+        "": 0.060592771260461205,
+        "antes de*": 0.05430691079194533,
+        "hasta que*": 0.3895771662463911
+    },
+    "bzw.": {
+        "": 0.1228482972136223,
+        "o": 0.5530650154798762,
+        "y": 0.2038390092879257
+    },
+    "d.h.": {
+        "": 0.2535094962840628,
+        "es decir": 0.46985962014863747,
+        "o sea": 0.04459124690338563
+    },
+    "da (CONTINGENCY:Cause:Reason, CONTINGENCY:Cause:Result)": {
+        "": 0.12594679186228483,
+        "como": 0.03835159102764737,
+        "dado que": 0.0201773604590506,
+        "porque": 0.15286384976525821,
+        "pues": 0.034491392801251956,
+        "puesto que": 0.02190923317683881,
+        "ya que": 0.03138236828377673
+    },
+    "dadurch (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner)": {
+        "": 0.22398309561542526,
+        "en consecuencia*": 0.010565240359218173,
+        "de este modo*": 0.015451664025356577
+    },
+    "dadurch , dass (EXPANSION:Manner:Arg2-as-manner, CONTINGENCY:Cause:Reason)": {
+        "": 0.07204610951008646,
+        "porque": 0.02881844380403458
+    },
+    "dagegen (COMPARISON:Contrast)": {
+        "": 0.13936377407487557,
+        "por el contrario*": 0.038952607660679504,
+        "en cambio": 0.033758926639255574,
+        "pero": 0.011902185674096516,
+        "sin embargo": 0.013417009305345163
+    },
+    "daher (CONTINGENCY:Cause:Result)": {
+        "": 0.09743589743589744,
+        "así pues": 0.01854945054945055,
+        "en consecuencia*": 0.025523809523809525,
+        "por consiguiente": 0.07513553113553113,
+        "por ello": 0.10546520146520147,
+        "por eso": 0.06127472527472527,
+        "por lo tanto": 0.11800732600732601,
+        "por tanto": 0.16407326007326006,
+        "pues": 0.022886446886446886
+    },
+    "damit (CONTINGENCY:Purpose:Arg2-as-goal, CONTINGENCY:Cause:Result)": {
+        "": 0.167357182694606,
+        "de este modo": 0.010815871245319098,
+        "a fin de (que)*": 0.030635009162616526,
+        "para": 0.15695960481236554,
+        "para que": 0.030037447215361324
+    },
+    "danach (TEMPORAL:Asynchronous:Precedence)": {
+        "": 0.2061742006615215,
+        "a continuación*": 0.03381109886071297,
+        "después": 0.2719588386622565,
+        "entonces": 0.025358324145534728,
+        "luego": 0.05586181550900404,
+        "más tarde*": 0.018743109151047408
+    },
+    "daneben (EXPANSION:Conjunction)": {
+        "": 0.24173027989821882,
+        "además": 0.2875318066157761,
+        "asimismo": 0.043256997455470736,
+        "también": 0.10432569974554708
+    },
+    "dann (CONTINGENCY:Condition:Arg2-as-cond, TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous, EXPANSION:Conjunction)": {
+        "": 0.3440988835725678,
+        "a continuación*": 0.013930422647527911,
+        "después": 0.04014653110047847,
+        "entonces": 0.12083831738437002,
+        "luego": 0.047398325358851676,
+        "si": 0.01141347687400319
+    },
+    "daraufhin (CONTINGENCY:Cause:Result, TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": {
+        "": 0.29550827423167847,
+        "en consecuencia*": 0.05673758865248227,
+        "a continuación": 0.03309692671394799,
+        "después": 0.03309692671394799,
+        "entonces": 0.08037825059101655
+    },
+    "darum (CONTINGENCY:Cause:Result)": {
+        "": 0.2883618796662275,
+        "por ello": 0.02204655248133509,
+        "por eso": 0.04479578392621871,
+        "por lo tanto": 0.01598594642072903,
+        "por tanto": 0.018620992534036013
+    },
+    "darüber hinaus (EXPANSION:Conjunction)": {
+        "": 0.08177190512292863,
+        "además": 0.35838838947254414,
+        "asimismo": 0.07938914762265786,
+        "por otra parte": 0.049388064551066826,
+        "también": 0.11469728149030652
+    },
+    "das heißt (EXPANSION:Equivalence, CONTINGENCY:Cause:Result)": {
+        "": 0.04939106901217862,
+        "en otras palabras": 0.03146143437077131,
+        "es decir": 0.38430311231393777,
+        "o sea": 0.024188092016238158
+    },
+    "davor (TEMPORAL:Asynchronous:Succession)": {
+        "": 0.36896877956480606,
+        "antes": 0.07757805108798486
+    },
+    "dazu (CONTINGENCY:Purpose:Arg1-as-goal, EXPANSION:Conjunction)": {
+        "": 0.350989484684214,
+        "para": 0.04702501469531709
+    },
+    "dementsprechend (CONTINGENCY:Cause:Result)": {
+        "": 0.23736600306278713,
+        "en consecuencia": 0.19601837672281777,
+        "por consiguiente": 0.0888208269525268,
+        "por ello": 0.015313935681470138,
+        "por lo tanto": 0.021439509954058193,
+        "por tanto": 0.05666156202143951
+    },
+    "demgegenüber (COMPARISON:Contrast, CONTINGENCY:Cause:Result)": {
+        "": 0.24271844660194175,
+        "en cambio*": 0.0970873786407767,
+        "por el contrario*": 0.20388349514563106
+    },
+    "demnach (CONTINGENCY:Cause:Result)": {
+        "": 0.19848975188781015,
+        "así pues": 0.02912621359223301,
+        "en consecuencia": 0.014023732470334413,
+        "de modo que*": 0.014023732470334413,
+        "por consiguiente": 0.0593311758360302,
+        "por ello": 0.016181229773462782,
+        "por lo tanto": 0.07011866235167206,
+        "por tanto": 0.15210355987055016,
+        "pues": 0.03559870550161812
+    },
+    "demzufolge (CONTINGENCY:Cause:Result)": {
+        "": 0.11737089201877934,
+        "en consecuencia": 0.07323943661971831,
+        "por consiguiente": 0.09483568075117371,
+        "por lo tanto": 0.06854460093896714,
+        "por tanto": 0.10422535211267606
+    },
+    "denn (CONTINGENCY:Cause:Reason)": {
+        "": 0.11445156609021648,
+        "dado que*": 0.01644697061313339,
+        "en efecto*": 0.016640464385052605,
+        "porque": 0.3483371628975692,
+        "pues": 0.11433063248276697,
+        "puesto que": 0.05393638892248156,
+        "ya que": 0.14042810497037125
+    },
+    "dennoch (COMPARISON:Concession:Arg2-as-denier)": {
+        "": 0.12813474734872116,
+        "aun así": 0.012351840299438553,
+        "no obstante": 0.19700561447286338,
+        "pero": 0.06899563318777292,
+        "a pesar de ello": 0.011478477854023705,
+        "sin embargo": 0.3091703056768559
+    },
+    "des weiteren (EXPANSION:Conjunction)": {
+        "": 0.039865871833084945,
+        "además": 0.18293591654247393,
+        "asimismo": 0.0838301043219076,
+        "en segundo lugar*": 0.01751117734724292,
+        "finalmente": 0.02645305514157973,
+        "por lo demás*": 0.014530551415797318,
+        "por otra parte*": 0.07228017883755589,
+        "por otro lado*": 0.014530551415797318,
+        "por último": 0.05514157973174367,
+        "también": 0.1736214605067064
+    },
+    "desgleichen (EXPANSION:Conjunction)": {
+        "": 0.12345679012345678,
+        "asimismo": 0.1728395061728395,
+        "igualmente": 0.06172839506172839,
+        "del mismo modo": 0.09876543209876543,
+        "también": 0.2777777777777778
+    },
+    "deshalb (CONTINGENCY:Cause:Result)": {
+        "": 0.09357614082023531,
+        "así pues": 0.012525461344358982,
+        "en consecuencia*": 0.017602529413553034,
+        "por consiguiente": 0.050071443772231175,
+        "por ello": 0.13568236402882072,
+        "por eso": 0.12151521600340498,
+        "por esto": 0.018362569543671905,
+        "por lo tanto": 0.09549144194813486,
+        "por tanto": 0.09993007630802907
+    },
+    "dessen ungeachtet (COMPARISON:Concession:Arg2-as-denier, EXPANSION:Conjunction)": {
+        "a pesar de ello": 0.12299465240641712,
+        "no obstante": 0.19786096256684493,
+        "sin embargo": 0.20320855614973263
+    },
+    "dessenungeachtet (COMPARISON:Concession:Arg2-as-denier, EXPANSION:Conjunction)": {
+        "": 0.3076923076923077,
+        "no obstante": 0.28205128205128205
+    },
+    "deswegen (CONTINGENCY:Cause:Result)": {
+        "": 0.105397951142632,
+        "en consecuencia*": 0.013987391646966114,
+        "por consiguiente": 0.05181245074862096,
+        "por ello": 0.1743498817966903,
+        "por eso": 0.09889676910953507,
+        "por esto": 0.03979511426319937,
+        "por lo tanto": 0.054570527974783296,
+        "por tanto": 0.06914893617021277
+    },
+    "doch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": {
+        "": 0.25234205415286187,
+        "aunque": 0.014423626185307894,
+        "no obstante": 0.017765337598537646,
+        "pero": 0.3845538672455158,
+        "sin embargo": 0.07174682965840283
+    },
+    "ebenfalls (EXPANSION:Conjunction, COMPARISON:Similarity)": {
+        "": 0.13432716836734693,
+        "asimismo": 0.06154336734693878,
+        "igualmente": 0.036830357142857144,
+        "también": 0.6190210459183674
+    },
+    "ebenso wenig (COMPARISON:Similarity)": {
+        "": 0.03934010152284264,
+        "tampoco": 0.3236040609137056
+    },
+    "ebensowenig (COMPARISON:Similarity)": {
+        "": 0.06985294117647059,
+        "tampoco": 0.6029411764705882
+    },
+    "einerseits (COMPARISON:Contrast)": {
+        "": 0.2181631077952148,
+        "por un lado": 0.24646256753280166,
+        "por una parte": 0.22227939284795473
+    },
+    "endlich (TEMPORAL:Asynchronous:Precedence)": {
+        "": 0.12276131553239987,
+        "finalmente": 0.13643764246173884,
+        "por fin": 0.2756431129925106
+    },
+    "entgegen (COMPARISON:Concession:Arg2-as-denier)": {
+        "": 0.3870967741935484,
+        "a pesar de*": 0.015141540487162607,
+        "contrariamente a": 0.028308097432521395
+    },
+    "entsprechend (CONTINGENCY:Cause:Reason)": {
+        "": 0.16081051950851477,
+        "en consecuencia": 0.020478551411942228
+    },
+    "erstens (EXPANSION:Conjunction)": {
+        "": 0.03969333498206999,
+        "en primer lugar": 0.5236799802151602,
+        "primero": 0.2115741313218746
+    },
+    "es sei denn (CONTINGENCY:Negative-Condition:Arg1-as-negcond)": {
+        "a menos que": 0.16554809843400448,
+        "excepto": 0.03355704697986577,
+        "salvo": 0.058165548098434,
+        "salvo que": 0.053691275167785234
+    },
+    "falls (CONTINGENCY:Condition:Arg1-as-cond)": {
+        "": 0.03195691202872531,
+        "cuando": 0.022262118491921005,
+        "si": 0.585637342908438
+    },
+    "ferner (EXPANSION:Conjunction)": {
+        "": 0.12448009506833037,
+        "además": 0.16785502079619727,
+        "asimismo": 0.14943553178847296,
+        "igualmente": 0.017676767676767676,
+        "por otra parte*": 0.03208556149732621,
+        "por otro lado*": 0.011586452762923352,
+        "también": 0.35056446821152704,
+        "y": 0.025698158051099228
+    },
+    "folgerichtig (CONTINGENCY:Cause:Result)": {
+        "": 0.10135135135135136,
+        "en consecuencia*": 0.07432432432432433
+    },
+    "folglich (CONTINGENCY:Cause:Result)": {
+        "": 0.07674418604651163,
+        "así pues": 0.01434108527131783,
+        "como consecuencia": 0.01124031007751938,
+        "en consecuencia": 0.14263565891472868,
+        "por consiguiente": 0.16550387596899224,
+        "por ello": 0.01434108527131783,
+        "por lo tanto": 0.14263565891472868,
+        "por tanto": 0.1372093023255814,
+        "pues": 0.014728682170542635
+    },
+    "freilich (COMPARISON:Concession:Arg1-as-denier, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast, EXPANSION:Exception:Arg2-as-excpt, EXPANSION:Level-of-detail:Arg2-as-detail)": {
+        "": 0.17857142857142858,
+        "sin embargo*": 0.07857142857142857
+    },
+    "für (CONTINGENCY:Purpose:Arg2-as-goal)": {
+        "": 0.06745220632439582,
+        "para": 0.3389103019276272,
+        "por": 0.07366816318474777
+    },
+    "für den fall , dass (CONTINGENCY:Condition:Arg1-as-cond)": {
+        "si": 0.060109289617486336
+    },
+    "genauer gesagt (EXPANSION:Level-of-detail:Arg2-as-detail)": {
+        "": 0.09307875894988067,
+        "es decir": 0.026252983293556086
+    },
+    "geschweige denn (EXPANSION:Conjunction)": {
+        "menos aún": 0.0642570281124498
+    },
+    "gleichermaßen (COMPARISON:Similarity)": {
+        "": 0.13755325623858794,
+        "asimismo": 0.028606208155812538,
+        "igualmente": 0.13998782714546562,
+        "del mismo modo*": 0.02982349360925137,
+        "también": 0.14242239805234327
+    },
+    "gleichfalls (COMPARISON:Similarity)": {
+        "": 0.1067193675889328,
+        "asimismo": 0.08695652173913043,
+        "igualmente": 0.09090909090909091,
+        "también": 0.5019762845849802
+    },
+    "gleichwohl (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": {
+        "": 0.10896309314586995,
+        "aunque": 0.020503807850029292,
+        "en cualquier caso*": 0.014645577035735208,
+        "no obstante": 0.17223198594024605,
+        "pero": 0.07615700058582309,
+        "sin embargo": 0.2958406561218512
+    },
+    "gleichzeitig (COMPARISON:Contrast, EXPANSION:Conjunction, TEMPORAL:Synchronous)": {
+        "": 0.151676279740447,
+        "además": 0.011806056236481614,
+        "al mismo tiempo": 0.39861211247296324,
+        "asimismo": 0.02081831290555155,
+        "mientras": 0.011806056236481614,
+        "paralelamente": 0.012977649603460706,
+        "también": 0.046322999279019464
+    },
+    "hierzu (CONTINGENCY:Purpose:Arg1-as-goal)": {
+        "": 0.3271177410761854,
+        "para": 0.015982951518380393
+    },
+    "hingegen (COMPARISON:Contrast)": {
+        "": 0.1984642646190195,
+        "en cambio": 0.09982279976373302,
+        "mientras": 0.027761370348493797,
+        "no obstante": 0.011813349084465446,
+        "pero": 0.04016538688718252,
+        "por el contrario*": 0.04311872415829888,
+        "por otra parte": 0.01772002362669817,
+        "por otro lado": 0.01535735380980508,
+        "sin embargo": 0.07737743650324867
+    },
+    "hinterher (TEMPORAL:Asynchronous:Precedence)": {
+        "": 0.19852941176470587,
+        "después": 0.16176470588235295,
+        "luego": 0.05514705882352941
+    },
+    "im übrigen (EXPANSION:Conjunction, EXPANSION:Exception:Arg1-as-excpt)": {
+        "": 0.07551266586248492,
+        "además": 0.11145958986731001,
+        "asimismo": 0.01158021712907117,
+        "de hecho": 0.015681544028950542,
+        "por cierto": 0.054282267792521106,
+        "por lo demás": 0.15295536791314837,
+        "por otra parte": 0.17273823884197828,
+        "por otro lado": 0.03594692400482509,
+        "también": 0.011821471652593486
+    },
+    "immerhin (CONTINGENCY:Cause:Reason, COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": {
+        "": 0.29286300246103364,
+        "en cualquier caso*": 0.02789171452009844,
+        "después de todo*": 0.04019688269073011,
+        "no obstante": 0.015586546349466776,
+        "a pesar de todo*": 0.017227235438884332,
+        "sin embargo": 0.02789171452009844
+    },
+    "indes (TEMPORAL:Synchronous, COMPARISON:Contrast)": {
+        "": 0.28674698795180725,
+        "mientras": 0.02891566265060241,
+        "no obstante": 0.043373493975903614,
+        "pero": 0.1493975903614458,
+        "sin embargo": 0.19759036144578312
+    },
+    "indessen (TEMPORAL:Synchronous, COMPARISON:Contrast)": {
+        "": 0.32945736434108525,
+        "ahora bien": 0.06589147286821706,
+        "por el contrario*": 0.050387596899224806,
+        "mientras": 0.05426356589147287,
+        "no obstante*": 0.08914728682170543,
+        "pero": 0.05426356589147287,
+        "sin embargo": 0.13565891472868216
+    },
+    "infolge (CONTINGENCY:Cause:Reason)": {
+        "": 0.05473372781065089,
+        "a causa de*": 0.02465483234714004,
+        "como consecuencia de*": 0.11439842209072978,
+        "debido a": 0.0611439842209073,
+        "por": 0.07396449704142012
+    },
+    "infolgedessen (CONTINGENCY:Cause:Result)": {
+        "": 0.07543859649122807,
+        "como consecuencia": 0.04736842105263158,
+        "en consecuencia": 0.11754385964912281,
+        "por lo tanto*": 0.01929824561403509,
+        "por consiguiente": 0.13157894736842105,
+        "por ello": 0.017543859649122806,
+        "por tanto": 0.1
+    },
+    "insbesondere (EXPANSION:Instantiation)": {
+        "": 0.033549442940769184,
+        "sobre todo": 0.10653364385975955
+    },
+    "insofern ()": {
+        "": 0.23337178008458284,
+        "por consiguiente": 0.014994232987312572,
+        "por ello": 0.04306036139946175,
+        "por lo tanto": 0.01384083044982699,
+        "por tanto": 0.0330642060745867,
+        "porque": 0.032679738562091505,
+        "puesto que*": 0.01114955786236063,
+        "ya que*": 0.02306805074971165
+    },
+    "inzwischen (TEMPORAL:Synchronous, TEMPORAL:Asynchronous:Precedence)": {
+        "": 0.1295215869311552,
+        "desde entonces": 0.015558148580318941,
+        "entre tanto": 0.03733955659276546,
+        "entretanto": 0.11707506806690005,
+        "mientras tanto": 0.05367561260210035
+    },
+    "jedoch (COMPARISON:Contrast, COMPARISON:Concession:Arg2-as-denier)": {
+        "": 0.13200384108622346,
+        "aunque": 0.010964961254159316,
+        "ahora bien*": 0.010562987114495635,
+        "no obstante": 0.048728198485897406,
+        "pero": 0.25699546662498046,
+        "sin embargo": 0.24542754416132562
+    },
+    "konsequenterweise (CONTINGENCY:Cause:Result, CONTINGENCY:Condition:Arg2-as-cond, EXPANSION:Conjunction)": {
+        "en consecuencia*": 0.23076923076923078
+    },
+    "kurz gesagt (EXPANSION:Level-of-detail:Arg1-as-detail)": {
+        "": 0.02768729641693811,
+        "en definitiva": 0.10097719869706841,
+        "en resumen": 0.23615635179153094,
+        "en suma": 0.035830618892508145,
+        "en una palabra": 0.03257328990228013,
+        "en pocas palabras*": 0.14332247557003258,
+        "en resumidas cuentas*": 0.03908794788273615
+    },
+    "mit anderen worten (EXPANSION:Equivalence)": {
+        "": 0.009720534629404616,
+        "en otras palabras": 0.49027946537059536,
+        "en otros términos": 0.018833535844471446,
+        "es decir": 0.16828675577156743
+    },
+    "mithin (CONTINGENCY:Cause:Result, COMPARISON:Concession:Arg2-as-denier)": {
+        "": 0.18303571428571427,
+        "en consecuencia*": 0.04017857142857143,
+        "por consiguiente": 0.06919642857142858,
+        "por ello": 0.024553571428571428,
+        "por lo tanto": 0.13392857142857142,
+        "por tanto": 0.19419642857142858
+    },
+    "nachdem (TEMPORAL:Asynchronous:Succession)": {
+        "": 0.09619743137748678,
+        "cuando": 0.050616973054646186,
+        "después": 0.2966507177033493
+    },
+    "nachher (TEMPORAL:Asynchronous:Precedence)": {
+        "": 0.10921501706484642,
+        "a continuación*": 0.03754266211604096,
+        "después": 0.31399317406143346,
+        "luego": 0.08873720136518772,
+        "más tarde*": 0.05802047781569966
+    },
+    "nebenbei (EXPANSION:Conjunction, TEMPORAL:Synchronous)": {
+        "": 0.13013698630136986,
+        "por cierto*": 0.21232876712328766,
+        "dicho sea de paso*": 0.0547945205479452
+    },
+    "nebenbei gesagt (EXPANSION:Conjunction)": {
+        "por cierto*": 0.2857142857142857,
+        "dicho sea de paso*": 0.17857142857142858
+    },
+    "nichtsdestotrotz (COMPARISON:Concession:Arg2-as-denier)": {
+        "": 0.07872696817420435,
+        "aun así": 0.018425460636515914,
+        "no obstante": 0.3869346733668342,
+        "pero": 0.02512562814070352,
+        "sin embargo": 0.271356783919598
+    },
+    "nichtsdestoweniger (COMPARISON:Concession:Arg2-as-denier)": {
+        "": 0.115,
+        "no obstante": 0.25,
+        "sin embargo": 0.245
+    },
+    "nämlich (CONTINGENCY:Cause:Reason, EXPANSION:Level-of-detail:Arg2-as-detail)": {
+        "": 0.3632075471698113,
+        "en efecto*": 0.03678185287258851,
+        "es decir": 0.06264574941700234,
+        "de hecho*": 0.01372694509221963,
+        "porque": 0.01033495866016536
+    },
+    "ob ()": {
+        "": 0.08224923303949361,
+        "si": 0.7135256883227836
+    },
+    "obendrein (EXPANSION:Conjunction)": {
+        "": 0.1574074074074074,
+        "además": 0.46296296296296297
+    },
+    "obgleich (COMPARISON:Concession:Arg1-as-denier, COMPARISON:Concession:Arg2-as-denier)": {
+        "": 0.05822328931572629,
+        "aunque": 0.5012004801920769,
+        "mientras": 0.014405762304921969,
+        "pero": 0.04441776710684274,
+        "a pesar de*": 0.16866746698679472,
+        "si bien": 0.03241296518607443
+    },
+    "obschon (COMPARISON:Concession:Arg1-as-denier)": {
+        "aunque": 0.6116504854368932
+    },
+    "obwohl (COMPARISON:Concession:Arg1-as-denier)": {
+        "": 0.03730259575240515,
+        "aunque": 0.4412779088763841,
+        "mientras": 0.017698311853330914,
+        "pero": 0.011798874568887275,
+        "a pesar de*": 0.24832092938827374,
+        "si bien": 0.029678707569431837
+    },
+    "oder (EXPANSION:Disjunction)": {
+        "": 0.05023381040102026,
+        "o": 0.7642766047895706,
+        "u": 0.02156251476075764,
+        "y": 0.06720277738415757
+    },
+    "ohnehin (CONTINGENCY:Cause:Reason)": {
+        "": 0.312666076173605,
+        "en cualquier caso*": 0.07617360496014172,
+        "de todas formas*": 0.030115146147032774,
+        "de todos modos*": 0.030115146147032774
+    },
+    "schließlich (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Cause:Reason)": {
+        "": 0.10119250425894379,
+        "al final": 0.012436115843270869,
+        "en definitiva*": 0.011328790459965928,
+        "después de todo*": 0.016354344122657582,
+        "finalmente": 0.18373083475298127,
+        "por fin": 0.011584327086882453,
+        "por último": 0.346252129471891,
+        "en última instancia*": 0.011073253833049404
+    },
+    "schlussendlich (TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous)": {
+        "en conclusión*": 0.057777777777777775,
+        "al final*": 0.09777777777777778,
+        "finalmente": 0.1688888888888889,
+        "por último": 0.27111111111111114,
+        "en última instancia*": 0.10222222222222223
+    },
+    "seitdem (TEMPORAL:Asynchronous:Precedence, TEMPORAL:Asynchronous:Succession)": {
+        "": 0.05669481302774427,
+        "desde entonces": 0.5006031363088058,
+        "después": 0.031363088057901084
+    },
+    "seither (TEMPORAL:Asynchronous:Precedence, TEMPORAL:Synchronous)": {
+        "": 0.0708215297450425,
+        "desde entonces": 0.6742209631728046
+    },
+    "so dass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": {
+        "": 0.06162018592297477,
+        "a fin de que*": 0.012749003984063745,
+        "de forma que*": 0.054183266932270914,
+        "de manera que*": 0.07277556440903055,
+        "de modo que*": 0.10066401062416999,
+        "para que": 0.08446215139442231
+    },
+    "so daß (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": {
+        "": 0.04334121355397951,
+        "a fin de que*": 0.018912529550827423,
+        "de forma que*": 0.0252167060677699,
+        "de manera que*": 0.07880220646178093,
+        "de modo que*": 0.10717100078802207,
+        "para que": 0.0673758865248227
+    },
+    "sobald (TEMPORAL:Synchronous)": {
+        "": 0.03672189879086431,
+        "cuando": 0.17062248096730856,
+        "si": 0.021495745633676667
+    },
+    "sodann (TEMPORAL:Asynchronous:Precedence, CONTINGENCY:Condition:Arg2-as-cond, EXPANSION:Conjunction)": {
+        "": 0.21364985163204747,
+        "además": 0.0830860534124629,
+        "asimismo": 0.02967359050445104,
+        "a continuación*": 0.10682492581602374,
+        "después": 0.08902077151335312,
+        "luego": 0.13353115727002968,
+        "posteriormente": 0.03857566765578635,
+        "también": 0.03560830860534125
+    },
+    "sodass (CONTINGENCY:Cause:Result, CONTINGENCY:Purpose:Arg2-as-goal)": {
+        "": 0.044657097288676235,
+        "a fin de que*": 0.011164274322169059,
+        "de forma que*": 0.02658160552897395,
+        "de manera que*": 0.02073365231259968,
+        "de modo que*": 0.05263157894736842,
+        "para": 0.12280701754385964,
+        "para que": 0.03455608718766613
+    },
+    "sofern (CONTINGENCY:Condition:Arg1-as-cond)": {
+        "": 0.03581661891117478,
+        "a condición de que*": 0.03724928366762178,
+        "cuando": 0.06829035339063992,
+        "a menos que*": 0.04250238777459408,
+        "si": 0.3256924546322827,
+        "siempre que*": 0.1623686723973257,
+        "siempre y cuando*": 0.02913085004775549
+    },
+    "solange (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond, TEMPORAL:Asynchronous:Succession)": {
+        "": 0.04467680608365019,
+        "cuando": 0.020595690747782003,
+        "hasta que*": 0.12420785804816223,
+        "a menos que*": 0.044993662864385296,
+        "mientras": 0.3897338403041825,
+        "si": 0.05576679340937896,
+        "siempre que*": 0.050697084917617236,
+        "siempre y cuando*": 0.010456273764258554
+    },
+    "somit (CONTINGENCY:Cause:Result, EXPANSION:Manner:Arg1-as-manner, EXPANSION:Level-of-detail:Arg1-as-detail, EXPANSION:Equivalence)": {
+        "": 0.1874287575313467,
+        "así pues": 0.01709819247679531,
+        "en consecuencia*": 0.03321934538348803,
+        "de este modo*": 0.019703631330402215,
+        "por consiguiente": 0.04820061879172773,
+        "por ello": 0.01058459534277805,
+        "por lo tanto": 0.08711936166748087,
+        "por tanto": 0.133203061390653,
+        "pues": 0.028171307604624655
+    },
+    "sondern (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": {
+        "": 0.0779508031904198,
+        "pero": 0.01733729529256686,
+        "sino": 0.7906342858419536,
+        "y": 0.025827207935834134
+    },
+    "sonst (CONTINGENCY:Negative-Condition:Arg2-as-negcond)": {
+        "": 0.13316039775183744,
+        "en caso contrario*": 0.021616947686986597,
+        "por lo demás*": 0.010808473843493299,
+        "de lo contrario*": 0.23346303501945526,
+        "de otro modo*": 0.05361003026372676
+    },
+    "soweit (CONTINGENCY:Condition:Arg1-as-cond)": {
+        "": 0.15855421686746987,
+        "cuando": 0.017349397590361446,
+        "si": 0.029397590361445784,
+        "siempre que*": 0.022650602409638555
+    },
+    "sowie (EXPANSION:Conjunction)": {
+        "": 0.09847363316146818,
+        "además": 0.012915411710653938,
+        "y": 0.6071519730460972
+    },
+    "sowieso (CONTINGENCY:Cause:Reason)": {
+        "": 0.2748091603053435,
+        "en cualquier caso*": 0.14885496183206107,
+        "de todos modos*": 0.0916030534351145
+    },
+    "sprich (EXPANSION:Equivalence)": {
+        "es decir": 0.3191489361702128
+    },
+    "später (TEMPORAL:Asynchronous:Precedence)": {
+        "": 0.07958571817934042,
+        "después": 0.2611065685472881,
+        "luego": 0.044153720359771054,
+        "más tarde": 0.1749795584627964,
+        "posteriormente": 0.07686017988552739
+    },
+    "statt (EXPANSION:Substitution:Arg1-as-subst)": {
+        "": 0.48325872873769027,
+        "en lugar de*": 0.15111906893464638,
+        "en vez de*": 0.05246195165622202
+    },
+    "stattdessen (EXPANSION:Substitution:Arg2-as-subst)": {
+        "": 0.16626506024096385,
+        "al contrario": 0.013855421686746987,
+        "en cambio": 0.11385542168674699,
+        "en lugar de*": 0.07349397590361446,
+        "en vez de*": 0.01325301204819277,
+        "más bien": 0.013855421686746987,
+        "por el contrario*": 0.021686746987951807,
+        "sino": 0.02891566265060241
+    },
+    "trotz (COMPARISON:Concession:Arg1-as-denier)": {
+        "": 0.05280659749933493,
+        "a pesar de*": 0.5800744878957169,
+        "aunque": 0.026602819898909284
+    },
+    "trotzdem (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": {
+        "": 0.13287858117326057,
+        "aun así": 0.02592087312414734,
+        "aún así": 0.012005457025920874,
+        "no obstante": 0.16152796725784446,
+        "pero": 0.04556616643929059,
+        "a pesar de ello*": 0.027830832196452934,
+        "a pesar de todo*": 0.012551159618008186,
+        "sin embargo": 0.22783083219645292
+    },
+    "und (EXPANSION:Conjunction, TEMPORAL:Asynchronous:Precedence, COMPARISON:Contrast)": {
+        "": 0.09571026564523107,
+        "e": 0.02148556586605192,
+        "y": 0.8107752497341684
+    },
+    "und zwar (EXPANSION:Level-of-detail:Arg2-as-detail)": {
+        "": 0.37243232866193127,
+        "a saber": 0.014110193895181417
+    },
+    "ungeachtet dessen (COMPARISON:Concession:Arg2-as-denier, EXPANSION:Conjunction)": {
+        "a pesar de": 0.08629441624365482,
+        "no obstante": 0.05583756345177665,
+        "sin embargo": 0.06091370558375635
+    },
+    "unterdessen (COMPARISON:Contrast, TEMPORAL:Synchronous)": {
+        "": 0.1404494382022472,
+        "entre tanto": 0.0898876404494382,
+        "entretanto": 0.21348314606741572,
+        "mientras tanto": 0.33146067415730335
+    },
+    "vielmehr (EXPANSION:Substitution:Arg2-as-subst, EXPANSION:Conjunction)": {
+        "": 0.2527770920760306,
+        "al contrario": 0.023944705011108368,
+        "en cambio*": 0.016785978770673907,
+        "más bien": 0.11898296716860035,
+        "por el contrario*": 0.010861515675141941,
+        "sino": 0.090594914835843
+    },
+    "von daher (CONTINGENCY:Cause:Result)": {
+        "": 0.02555366269165247,
+        "en consecuencia": 0.03577512776831346,
+        "por consiguiente": 0.07155025553662692,
+        "por ello": 0.18057921635434412,
+        "por eso": 0.06643952299829642,
+        "por esto": 0.04088586030664395,
+        "por lo tanto": 0.0868824531516184,
+        "por tanto": 0.06473594548551959
+    },
+    "vorausgesetzt (CONTINGENCY:Condition:Arg1-as-cond)": {
+        "": 0.10011918951132301,
+        "a condición de que*": 0.21454112038140644,
+        "si": 0.04290822407628129,
+        "siempre que*": 0.41477949940405245,
+        "siempre y cuando": 0.05125148986889154
+    },
+    "vorausgesetzt , dass (CONTINGENCY:Condition:Arg1-as-cond)": {
+        "a condición de que*": 0.06918238993710692,
+        "dado que": 0.06289308176100629,
+        "siempre que": 0.3270440251572327,
+        "siempre y cuando": 0.11949685534591195
+    },
+    "vorausgesetzt , daß (CONTINGENCY:Condition:Arg1-as-cond)": {
+        "a condición de que*": 0.2786885245901639,
+        "siempre que": 0.18032786885245902
+    },
+    "vorher (TEMPORAL:Asynchronous:Succession)": {
+        "": 0.1125,
+        "anteriormente": 0.06180555555555556,
+        "antes": 0.375,
+        "previamente": 0.08194444444444444
+    },
+    "weder ... noch (EXPANSION:Conjunction)": {
+        "": 0.014186537881074554,
+        "ni ... ni": 0.2840325988530033
+    },
+    "wegen (CONTINGENCY:Cause:Reason)": {
+        "": 0.06948433866776091,
+        "a causa de*": 0.03433182875119683,
+        "debido a": 0.07714402954452196,
+        "por": 0.35508138421556557,
+        "porque": 0.017371084666940227
+    },
+    "weil (CONTINGENCY:Cause:Reason)": {
+        "": 0.03706370157054102,
+        "dado que*": 0.015892061968375865,
+        "debido a*": 0.020318374530037597,
+        "por": 0.04135669146468283,
+        "porque": 0.6040850065328107,
+        "pues": 0.050529290990054126,
+        "puesto que*": 0.03533050689278191,
+        "ya que*": 0.07898034823880756
+    },
+    "weiterhin (EXPANSION:Conjunction)": {
+        "": 0.11309000293169158,
+        "además": 0.019422456757549104,
+        "asimismo": 0.012752858399296393,
+        "también": 0.027997654646731165
+    },
+    "wenn (TEMPORAL:Synchronous, CONTINGENCY:Condition:Arg1-as-cond)": {
+        "": 0.08413059182127315,
+        "cuando": 0.17407544443857145,
+        "si": 0.4795708018394207
+    },
+    "wenn ... auch (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": {
+        "": 0.03489915074309979,
+        "aunque": 0.0363588110403397
+    },
+    "wenngleich (COMPARISON:Concession:Arg2-as-denier, COMPARISON:Concession:Arg1-as-denier)": {
+        "": 0.036931818181818184,
+        "aunque": 0.609375,
+        "pero": 0.03835227272727273,
+        "a pesar de*": 0.09588068181818182,
+        "si bien": 0.07102272727272728
+    },
+    "weshalb (CONTINGENCY:Cause:Result)": {
+        "": 0.07708497763746383,
+        "por ello": 0.012365167061299658,
+        "por eso": 0.016574585635359115,
+        "por lo tanto": 0.013154433043935806,
+        "por tanto": 0.015259142330965536
+    },
+    "weswegen (CONTINGENCY:Cause:Result)": {
+        "": 0.06535947712418301,
+        "por ello": 0.058823529411764705,
+        "por tanto": 0.0718954248366013
+    },
+    "wie (TEMPORAL:Synchronous, COMPARISON:Similarity)": {
+        "": 0.10170541665362831,
+        "como": 0.4499358513001846
+    },
+    "wiederum (EXPANSION:Conjunction, COMPARISON:Concession:Arg2-as-denier, COMPARISON:Contrast)": {
+        "": 0.31850853548966757,
+        "también": 0.02425876010781671
+    },
+    "wo (TEMPORAL:Synchronous, CONTINGENCY:Cause:Reason)": {
+        "": 0.07055033204023933,
+        "cuando": 0.05753172463672825
+    },
+    "wobei (TEMPORAL:Synchronous, EXPANSION:Level-of-detail:Arg2-as-detail, COMPARISON:Concession:Arg2-as-denier, CONTINGENCY:Cause:Reason)": {
+        "": 0.20765245117576725,
+        "aunque": 0.029759532350205925,
+        "mientras": 0.011824099907001461,
+        "pero": 0.02577388069616049
+    },
+    "wogegen (COMPARISON:Contrast)": {
+        "": 0.1414141414141414,
+        "mientras": 0.36363636363636365
+    },
+    "wohingegen (COMPARISON:Contrast, COMPARISON:Concession:Arg1-as-denier, EXPANSION:Conjunction)": {
+        "": 0.10096153846153846,
+        "cuando": 0.057692307692307696,
+        "mientras": 0.6346153846153846
+    },
+    "während (TEMPORAL:Synchronous, COMPARISON:Contrast)": {
+        "": 0.039467715106608195,
+        "aunque": 0.023337869852311104,
+        "cuando": 0.04788547809869449,
+        "mientras": 0.2428549826100106,
+        "pero": 0.010938051313070215,
+        "si": 0.012450224305660567
+    },
+    "währenddessen (TEMPORAL:Synchronous, COMPARISON:Contrast)": {
+        "mientras": 0.2,
+        "mientras tanto": 0.42857142857142855
+    },
+    "z.b.": {
+        "": 0.07094594594594594,
+        "por ejemplo": 0.5304054054054054
+    },
+    "zu guter letzt (TEMPORAL:Asynchronous:Precedence, EXPANSION:Conjunction)": {
+        "finalmente": 0.0847457627118644,
+        "por último": 0.461864406779661
+    },
+    "zudem (EXPANSION:Conjunction)": {
+        "": 0.10915792458179756,
+        "además": 0.2736036291465835,
+        "asimismo": 0.0825063793592288,
+        "igualmente": 0.011341083073433513,
+        "por otra parte*": 0.03515735752764389,
+        "también": 0.30011341083073434,
+        "y": 0.02877799829883754
+    },
+    "zuerst (TEMPORAL:Asynchronous:Succession)": {
+        "": 0.08736059479553904,
+        "antes": 0.046933085501858735,
+        "en primer lugar": 0.21328996282527882,
+        "primero": 0.2704460966542751
+    },
+    "zugleich (TEMPORAL:Synchronous, EXPANSION:Conjunction, COMPARISON:Contrast)": {
+        "": 0.2444300936390055,
+        "además": 0.01743622860833064,
+        "al mismo tiempo": 0.2831772683241847,
+        "asimismo": 0.027768808524378432,
+        "igualmente": 0.011947045527930255,
+        "también": 0.1310946076848563
+    },
+    "zuletzt (TEMPORAL:Asynchronous:Precedence)": {
+        "": 0.09841170974774213,
+        "finalmente": 0.022111491747119277,
+        "por último": 0.04360012457178449
+    },
+    "zum anderen (EXPANSION:Conjunction, COMPARISON:Contrast)": {
+        "": 0.059613319011815255,
+        "además": 0.011278195488721804,
+        "en segundo lugar": 0.034371643394199784,
+        "por otra parte*": 0.15682062298603652,
+        "por otro lado": 0.07787325456498388,
+        "también": 0.012352309344790547
+    },
+    "zum beispiel (EXPANSION:Instantiation)": {
+        "": 0.0468607231431928,
+        "por ejemplo": 0.6828090327633468
+    },
+    "zum einen (EXPANSION:Conjunction, COMPARISON:Contrast)": {
+        "": 0.055025011368804,
+        "en primer lugar": 0.08094588449295134,
+        "por un lado": 0.18053660754888587,
+        "primero": 0.018644838562983174
+    },
+    "zumal (EXPANSION:Level-of-detail:Arg2-as-detail, CONTINGENCY:Cause:Reason)": {
+        "": 0.08043117744610281,
+        "dado que": 0.02736318407960199,
+        "porque": 0.06550580431177445,
+        "puesto que*": 0.01990049751243781,
+        "sobre todo": 0.0439469320066335,
+        "ya que": 0.03897180762852405
+    },
+    "zunächst (TEMPORAL:Asynchronous:Succession, EXPANSION:Conjunction)": {
+        "": 0.0828093171552564,
+        "antes": 0.025329908776901958,
+        "en primer lugar": 0.24754229031972366,
+        "primero": 0.09742272606500753
+    },
+    "zusätzlich (EXPANSION:Conjunction)": {
+        "": 0.10450534138411519,
+        "además": 0.36182071528100324,
+        "aparte de*": 0.018114259173246633,
+        "asimismo": 0.01579191825359963,
+        "también": 0.02183000464468184
+    },
+    "zuvor (TEMPORAL:Asynchronous:Succession)": {
+        "": 0.13723511604439959,
+        "anteriormente": 0.12008072653884964,
+        "antes": 0.31281533804238143,
+        "previamente": 0.07164480322906155
+    },
+    "zwar (COMPARISON:Concession:Arg1-as-denier)": {
+        "": 0.5052177747293126,
+        "aunque": 0.08088775660183234,
+        "a pesar de*": 0.015236882073391798,
+        "si bien": 0.012493263436382343
+    },
+    "zwecks (CONTINGENCY:Purpose:Arg2-as-goal)": {
+        "": 0.07142857142857142,
+        "para": 0.38461538461538464
+    },
+    "zweitens (TEMPORAL:Asynchronous:Precedence, EXPANSION:Conjunction)": {
+        "": 0.03279467680608365,
+        "en segundo lugar": 0.6077709125475285,
+        "segundo": 0.17336026615969582
+    },
+    "überdies (EXPANSION:Conjunction)": {
+        "": 0.1893939393939394,
+        "además": 0.43787878787878787,
+        "asimismo": 0.06212121212121212,
+        "por otra parte*": 0.05757575757575758,
+        "también": 0.1393939393939394,
+        "y": 0.015151515151515152
+    }
+}

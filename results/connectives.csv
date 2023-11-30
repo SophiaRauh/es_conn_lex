@@ -1,0 +1,158 @@
+Connective Name	Parts of Speech	Sense (PDTB-3)
+a causa de	prep	CONTINGENCY:Cause:Reason
+a condición de que	csu	CONTINGENCY:Condition:Arg2-as-cond
+a continuación	adv	TEMPORAL:Asynchronous:Precedence
+a fin de	prep	CONTINGENCY:Purpose:Arg2-as-goal
+a fin de cuentas	adv	TEMPORAL:Asynchronous:Precedence
+a fin de que	csu	CONTINGENCY:Purpose:Arg2-as-goal
+a menos que	csu	CONTINGENCY:Negative-Condition:Arg2-as-negcond
+a pesar de	prep	COMPARISON:Concession:Arg1-as-denier
+a pesar de ello;a pesar de esto;a pesar de eso	adv	COMPARISON:Concession:Arg2-as-denier
+a pesar de que	csu	COMPARISON:Concession:Arg1-as-denier
+a pesar de todo	adv	COMPARISON:Concession:Arg2-as-denier
+a propósito	adv	EXPANSION:Conjunction
+a saber	other	EXPANSION:Level-of-detail:Arg2-as-detail,EXPANSION:Equivalence
+además	adv	EXPANSION:Conjunction
+además de	prep	EXPANSION:Conjunction
+ahora bien	adv	COMPARISON:Concession:Arg2-as-denier
+al contrario	adv	EXPANSION:Substitution:Arg2-as-subst,COMPARISON:Contrast
+al contrario de	prep	EXPANSION:Substitution:Arg2-as-subst,COMPARISON:Contrast
+al final	adv	TEMPORAL:Asynchronous:Precedence
+al mismo tiempo	adv	TEMPORAL:Synchronous
+anteriormente	adv	TEMPORAL:Asynchronous:Succession
+antes	adv	TEMPORAL:Asynchronous:Succession
+antes bien	other	EXPANSION:Substitution:Arg2-as-subst
+antes de	prep	TEMPORAL:Asynchronous:Precedence
+antes de que	csu	TEMPORAL:Asynchronous:Precedence
+aparte	adv	EXPANSION:Conjunction
+aparte de	prep	EXPANSION:Conjunction
+así pues	adv	CONTINGENCY:Cause:Result
+asimismo;así mismo	adv	EXPANSION:Conjunction
+aun así;aún así	adv	COMPARISON:Concession:Arg2-as-denier
+aunque	csu	COMPARISON:Concession:Arg1-as-denier
+como	csu	TEMPORAL:Synchronous,COMPARISON:Similarity
+como consecuencia	adv	CONTINGENCY:Cause:Result
+como consecuencia de	prep	CONTINGENCY:Cause:Reason
+con todo	csu	COMPARISON:Concession:Arg2-as-denier
+contrariamente a	prep	COMPARISON:Contrast,COMPARISON:Concession:Arg2-as-denier
+cuando	csu	TEMPORAL:Synchronous,COMPARISON:Concession:Arg1-as-denier,CONTINGENCY:Condition:Arg1-as-cond
+dado que	csu	CONTINGENCY:Cause:Reason
+de entrada	adv	TEMPORAL:Asynchronous:Succession,EXPANSION:Conjunction
+de esta forma;de esa forma	adv	CONTINGENCY:Cause:Result
+de esta manera;de esa manera	adv	CONTINGENCY:Cause:Result
+de este modo;de ese modo	adv	CONTINGENCY:Cause:Result
+de forma que	csu	CONTINGENCY:Purpose:Arg2-as-goal,CONTINGENCY:Cause:Result
+de hecho	adv	EXPANSION:Level-of-detail:Arg2-as-detail,EXPANSION:Conjunction,EXPANSION:Instantiation
+de igual manera	adv	COMPARISON:Similarity
+de igual modo	adv	COMPARISON:Similarity,EXPANSION:Conjunction
+de la misma forma	adv	COMPARISON:Similarity
+de la misma manera	adv	COMPARISON:Similarity
+de lo contrario	adv	CONTINGENCY:Negative-Condition:Arg1-as-negcond
+de manera que	csu	CONTINGENCY:Purpose:Arg2-as-goal,CONTINGENCY:Cause:Result
+de modo que	csu	CONTINGENCY:Cause:Result
+de otro modo	adv	CONTINGENCY:Negative-Condition:Arg1-as-negcond
+de todas formas	adv	COMPARISON:Concession:Arg2-as-denier,CONTINGENCY:Cause:Reason
+de todas maneras	adv	COMPARISON:Concession:Arg2-as-denier
+de todos modos	adv	COMPARISON:Concession:Arg2-as-denier,CONTINGENCY:Cause:Reason
+de un lado	adv	COMPARISON:Contrast
+de una parte	adv	COMPARISON:Contrast
+debido a	prep	CONTINGENCY:Cause:Reason
+del mismo modo	adv	COMPARISON:Similarity,EXPANSION:Conjunction
+del mismo modo que	csu	COMPARISON:Similarity
+desde entonces	adv	TEMPORAL:Asynchronous:Precedence,TEMPORAL:Synchronous
+después	adv	TEMPORAL:Asynchronous:Precedence
+después de todo	adv	CONTINGENCY:Cause:Reason
+dicho sea de paso	other	EXPANSION:Conjunction
+efectivamente	adv	CONTINGENCY:Cause:Reason
+en breve	adv	EXPANSION:Level-of-detail:Arg1-as-detail
+en cambio	cco	COMPARISON:Contrast,COMPARISON:Concession:Arg2-as-denier,EXPANSION:Substitution:Arg2-as-subst
+en caso contrario	adv	CONTINGENCY:Negative-Condition:Arg1-as-negcond
+en conclusión	adv	TEMPORAL:Asynchronous:Precedence
+en conjunto	adv	
+en consecuencia	adv	CONTINGENCY:Cause:Result
+en cualquier caso	adv	COMPARISON:Concession:Arg2-as-denier,CONTINGENCY:Cause:Reason
+en definitiva	adv	TEMPORAL:Asynchronous:Precedence,EXPANSION:Level-of-detail:Arg1-as-detail
+en efecto	adv	CONTINGENCY:Cause:Reason
+en esencia	adv	EXPANSION:Level-of-detail:Arg1-as-detail
+en fin	adv	TEMPORAL:Asynchronous:Precedence
+en lugar de	prep	EXPANSION:Substitution:Arg1-as-subst
+en otras palabras;en otros términos	adv	EXPANSION:Equivalence
+en pocas palabras	adv	EXPANSION:Level-of-detail:Arg1-as-detail
+en primer lugar	adv	EXPANSION:Conjunction,TEMPORAL:Asynchronous:Succession
+en resumen	adv	EXPANSION:Level-of-detail:Arg1-as-detail
+en resumidas cuentas	adv	EXPANSION:Level-of-detail:Arg1-as-detail
+en segundo lugar;en segundo término	adv	TEMPORAL:Asynchronous:Precedence,EXPANSION:Conjunction
+en síntesis	adv	EXPANSION:Level-of-detail:Arg1-as-detail
+en suma	adv	EXPANSION:Level-of-detail:Arg1-as-detail
+en todo caso	adv	COMPARISON:Concession:Arg2-as-denier
+en última instancia	adv	TEMPORAL:Asynchronous:Precedence
+en una palabra	adv	EXPANSION:Level-of-detail:Arg1-as-detail
+en vez de	prep	EXPANSION:Substitution:Arg1-as-subst
+entonces	adv	CONTINGENCY:Cause:Result,TEMPORAL:Asynchronous:Precedence
+entretanto;entre tanto	adv	TEMPORAL:Synchronous
+es decir	other	EXPANSION:Equivalence,CONTINGENCY:Cause:Result
+es más	other	EXPANSION:Conjunction
+excepto	prep	EXPANSION:Exception:Arg2-as-excpt
+finalmente	adv	TEMPORAL:Asynchronous:Precedence
+hasta que	csu	TEMPORAL:Asynchronous:Precedence
+igualmente	adv	EXPANSION:Conjunction,COMPARISON:Similarity
+incluso	adv	EXPANSION:Conjunction
+luego	csu	TEMPORAL:Asynchronous:Precedence,CONTINGENCY:Cause:Result
+más aún	csu	EXPANSION:Conjunction,EXPANSION:Instantiation
+más bien	adv	EXPANSION:Substitution:Arg2-as-subst
+más tarde	adv	TEMPORAL:Asynchronous:Precedence
+mejor dicho	adv	EXPANSION:Substitution:Arg2-as-subst
+menos aún	adv	EXPANSION:Conjunction
+mientras	csu	COMPARISON:Contrast,TEMPORAL:Synchronous,CONTINGENCY:Condition:Arg1-as-cond,EXPANSION:Conjunction
+mientras tanto	adv	TEMPORAL:Synchronous
+ni	cco	EXPANSION:Conjunction
+ni ... ni	cco	EXPANSION:Conjunction
+no obstante	adv	COMPARISON:Concession:Arg2-as-denier
+o bien	cco	EXPANSION:Disjunction
+o sea	other	CONTINGENCY:Cause:Result,EXPANSION:Equivalence
+o sea que	csu	CONTINGENCY:Cause:Result
+o;u	cco	EXPANSION:Disjunction
+para	prep	CONTINGENCY:Purpose:Arg2-as-goal
+para que	csu	CONTINGENCY:Purpose:Arg2-as-goal,CONTINGENCY:Cause:Result
+paralelamente	adv	TEMPORAL:Synchronous,EXPANSION:Conjunction,COMPARISON:Contrast
+pero	cco	COMPARISON:Concession:Arg2-as-denier,COMPARISON:Contrast
+por	prep	CONTINGENCY:Cause:Reason
+por añadidura	adv	EXPANSION:Conjunction
+por cierto	adv	EXPANSION:Conjunction
+por consiguiente	adv	CONTINGENCY:Cause:Result
+por contra	adv	COMPARISON:Contrast
+por ejemplo	other	EXPANSION:Instantiation
+por el contrario	adv	COMPARISON:Contrast,EXPANSION:Substitution:Arg2-as-subst
+por ello;por eso;por esto	adv	CONTINGENCY:Cause:Result
+por eso mismo	adv	CONTINGENCY:Cause:Result
+por fin	adv	TEMPORAL:Asynchronous:Precedence
+por lo demás	adv	EXPANSION:Conjunction,EXPANSION:Exception:Arg1-as-excpt
+por lo tanto	adv	CONTINGENCY:Cause:Result
+por otra parte	adv	EXPANSION:Conjunction
+por otro lado	adv	EXPANSION:Conjunction,COMPARISON:Contrast
+por su parte	adv	COMPARISON:Contrast
+por tanto	adv	CONTINGENCY:Cause:Result
+por último	adv	TEMPORAL:Asynchronous:Precedence
+por un lado	adv	COMPARISON:Contrast
+por una parte	adv	COMPARISON:Contrast
+porque	csu	CONTINGENCY:Cause:Reason
+posteriormente	adv	TEMPORAL:Asynchronous:Precedence
+previamente	adv	TEMPORAL:Asynchronous:Succession
+primero	adv	TEMPORAL:Asynchronous:Succession,EXPANSION:Conjunction
+pues	csu	CONTINGENCY:Cause:Result,CONTINGENCY:Cause:Reason
+puesto que	csu	CONTINGENCY:Cause:Reason
+salvo	prep	EXPANSION:Exception:Arg2-as-excpt
+salvo que	csu	CONTINGENCY:Negative-Condition:Arg2-as-negcond
+segundo	adv	TEMPORAL:Asynchronous:Precedence,EXPANSION:Conjunction
+si	csu	CONTINGENCY:Condition:Arg1-as-cond
+si bien	csu	COMPARISON:Concession:Arg1-as-denier
+siempre que	csu	CONTINGENCY:Condition:Arg1-as-cond
+siempre y cuando	csu	CONTINGENCY:Condition:Arg1-as-cond
+sin embargo	cco	COMPARISON:Concession:Arg2-as-denier
+sino	cco	EXPANSION:Substitution:Arg2-as-subst
+sino que	cco	EXPANSION:Substitution:Arg2-as-subst
+sobre todo	adv	EXPANSION:Instantiation
+también	adv	EXPANSION:Conjunction
+tampoco	adv	COMPARISON:Similarity
+y;e	cco	EXPANSION:Conjunction
+ya que	csu	CONTINGENCY:Cause:Reason
