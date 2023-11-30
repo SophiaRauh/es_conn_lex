@@ -70,7 +70,7 @@ python conn_align.py -s de -t it alignment.txt german.txt italian.txt
 python conn_align.py -s de -t fr -tl fr_lex.xml alignment.txt german.txt french.txt
 ```
 
-##### Notes
+#### Notes
 The folder *help\_functions* includes files to extract text examples from the corpus and a simple tokenizer for Italian and Spanish. They can be used separately.
 
 ## References
