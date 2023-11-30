@@ -1,16 +1,20 @@
 # -*- coding: utf-8 -*-
 
+# Sophia Rauh
+# Matrikelnummer 790850
+# Python 3.9.13
+# Windows 10
+
 """Organising the Output: Connectives Alignments and Visual Output"""
 
 import argparse
+import sys
 from pathlib import Path
 
 from conn_search import FindAlignments
-from discourse_relations import (add_discourse_relation
-                                 # filter_for_discourse_relation,
-                                 # discourse_relation_mapping,
-                                 # create_sankey_diagram)
-                                 )
+from help_functions.discourse_relations import (add_discourse_relation,
+                                                assign_relations)
+
 from processing_filtering import (json_to_dict, read_xml_lex, read_es_conns,
                                   save_alignments)
 
@@ -27,9 +31,6 @@ if __name__ == "__main__":
     parser.add_argument("-t", "--target_lang", action="store",
                         type=str,
                         help="Target language code")
-    # parser.add_argument("-dr", "--discourse_relation", type=str,
-    #                     default="concession",
-    #                     help="The discourse relation (e.g. 'concession')")
     parser.add_argument("-sr", "--show_relation", action="store_true",
                         help="If specified, connectives are saved with"
                         " corresponding discourse relation")
@@ -40,23 +41,21 @@ if __name__ == "__main__":
                         default=0.014, type=float,
                         help="Relative phrase threshold in percent")
     parser.add_argument("-i", "--iterations", action="store",
-                        default=3, type=int, help="Number of iterations")
+                        default=2, type=int, help="Number of iterations")
     parser.add_argument("-wc", "--word_count", action="store",
                         default=20, type=int,
                         help="Absolute word threshold as count")
     parser.add_argument("-pc", "--phrase_count", action="store",
                         default=10, type=int,
                         help="Absolute phrase threshold as count")
-    # parser.add_argument("-g", "--german_first", action="store_true",
-    #                     help="If specified, the first iteration starts with"
-    #                     " German-French, default is French-German")
+    parser.add_argument("-sl", "--source_lex", action="store",
+                        default="", type=str,
+                        help="Source connective lexikon")
+    parser.add_argument("-tl", "--target_lex", action="store",
+                        default="", type=str,
+                        help="Target connective lexicon")
 
     args = parser.parse_args()
-
-    # if args.german_first:
-    #     language = "german"
-    # else:
-    #     language = "french"
 
     source_word_alignment = json_to_dict(
         f"{args.source_lang}_{args.target_lang}_word_alignment.json")
@@ -72,6 +71,23 @@ if __name__ == "__main__":
     elif args.source_lang == "de":
         source_lex = read_xml_lex(
             Path("connectives_and_relations/dimlex.xml"))
+    else:
+        if args.source_lex:
+            if args.source_lex.endswith("xml"):
+                source_lex = read_xml_lex(
+                    Path(args.source_lex))
+            elif args.source_lex.endswith("txt"):
+                source_lex = read_es_conns(
+                    Path(args.source_lex))
+            else:
+                sys.exit(
+                    "The source connective lexicon has to be a XML or TXT file"
+                    )
+        else:
+            sys.exit(
+                "If the source connectives are not in Italian, Spanish or "
+                "German, you have to provide the Path to a connective lexicon"
+                " with the argument '-sl'")
 
     if args.target_lang == "it":
         target_lex = read_xml_lex(
@@ -82,17 +98,28 @@ if __name__ == "__main__":
     elif args.target_lang == "de":
         target_lex = read_xml_lex(
             Path("connectives_and_relations/dimlex.xml"))
-
-    de_rel = json_to_dict(Path("connectives_and_relations/de_relations.json"))
-    it_rel = json_to_dict(Path("connectives_and_relations/it_relations.json"))
-    # fr_rel = json_to_dict(Path("connectives_and_relations/fr_relations.json"))
-    # rel = json_to_dict(Path("connectives_and_relations/relations.json"))
+    else:
+        if args.target_lex:
+            if args.target_lex.endswith("xml"):
+                target_lex = read_xml_lex(
+                    Path(args.target_lex))
+            elif args.target_lex.endswith("txt"):
+                target_lex = read_es_conns(
+                    Path(args.target_lex))
+            else:
+                sys.exit(
+                    "The source connective lexicon has to be a XML or TXT file"
+                    )
+        else:
+            sys.exit(
+                "If the source connectives are not in Italian, Spanish or "
+                "German, you have to provide the Path to a connective lexicon"
+                " with the argument '-sl'")
 
     align = FindAlignments(source_word_alignment, target_word_alignment,
                            Path(args.word_alignment),
                            Path(args.source_corpus), Path(args.target_corpus),
-                           source_lex, target_lex, args.source_lang,
-                           args.target_lang)
+                           source_lex, target_lex)
 
     align.find_conns(lang="source", word_threshold=args.word_threshold,
                      phrase_threshold=args.phrase_threshold,
@@ -100,40 +127,35 @@ if __name__ == "__main__":
                      phrase_min_count=args.phrase_count, limit=args.iterations)
 
     if args.show_relation:
-        if "it" == args.source_lang and "de" == args.target_lang:
-            source_alignment = add_discourse_relation(
-                align.source_conn_alignments, source_mapping=it_rel,
-                target_mapping=de_rel)
-            target_alignment = add_discourse_relation(
-                align.target_conn_alignments, target_mapping=it_rel,
-                source_mapping=de_rel)
-        elif "de" == args.source_lang and "it" == args.target_lang:
-            source_alignment = add_discourse_relation(
-                align.source_conn_alignments, source_mapping=de_rel,
-                target_mapping=it_rel)
-            target_alignment = add_discourse_relation(
-                align.target_conn_alignments, target_mapping=de_rel,
-                source_mapping=it_rel)
-        elif "it" == args.source_lang:
-            source_alignment = add_discourse_relation(
-                align.source_conn_alignments, source_mapping=it_rel)
-            target_alignment = add_discourse_relation(
-                align.target_conn_alignments, target_mapping=it_rel)
-        elif "it" == args.target_lang:
-            source_alignment = add_discourse_relation(
-                align.source_conn_alignments, target_mapping=it_rel)
-            target_alignment = add_discourse_relation(
-                align.target_conn_alignments, source_mapping=it_rel)
-        elif "de" == args.source_lang:
-            source_alignment = add_discourse_relation(
-                align.source_conn_alignments, source_mapping=de_rel)
-            target_alignment = add_discourse_relation(
-                align.target_conn_alignments, target_mapping=de_rel)
-        elif "de" == args.target_lang:
-            source_alignment = add_discourse_relation(
-                align.source_conn_alignments, target_mapping=de_rel)
-            target_alignment = add_discourse_relation(
-                align.target_conn_alignments, source_mapping=de_rel)
+        if args.source_lang == "it":
+            s_rel = json_to_dict(
+                Path("connectives_and_relations/it_relations.json"))
+        elif args.source_lang == "de":
+            s_rel = json_to_dict(
+                Path("connectives_and_relations/de_relations.json"))
+        elif args.source_lex and args.source_lex.endswith("xml"):
+            s_rel = assign_relations(args.source_lex)
+        else:
+            s_rel = dict()
+
+        if args.target_lang == "it":
+            t_rel = json_to_dict(
+                Path("connectives_and_relations/it_relations.json"))
+        elif args.target_lang == "de":
+            t_rel = json_to_dict(
+                Path("connectives_and_relations/de_relations.json"))
+        elif args.target_lex and args.target_lex.endswith("xml"):
+            t_rel = assign_relations(args.target_lex)
+        else:
+            t_rel = dict()
+
+        source_alignment = add_discourse_relation(
+            align.source_conn_alignments, source_mapping=s_rel,
+            target_mapping=t_rel)
+        target_alignment = add_discourse_relation(
+            align.target_conn_alignments, target_mapping=s_rel,
+            source_mapping=t_rel)
+
     else:
         target_alignment = align.target_conn_alignments
         source_alignment = align.source_conn_alignments
@@ -143,21 +165,14 @@ if __name__ == "__main__":
             f"{args.target_lang}_{args.source_lang}_connectives_alignment"
             f".json",
             target_alignment)
-        # fr_mapping = discourse_relation_mapping(align.fr_conn_alignments,
-        #                                         fr_rel, de_rel)
-        # create_sankey_diagram(fr_mapping, "fr", "de",
-        #                       args.discourse_relation,
-        #                       f"fr_de_{args.discourse_relation}_mapping.png")
+        save_alignments(
+            f"{args.target_lang}_{args.source_lang}_connectives_alignment"
+            f"_count.json", align.target_count)
     if source_alignment:
         save_alignments(
             f"{args.source_lang}_{args.target_lang}_connectives_alignment"
             f".json",
             source_alignment)
-        # de_mapping = discourse_relation_mapping(align.de_conn_alignments,
-        #                                         de_rel, fr_rel)
-        # create_sankey_diagram(de_mapping, "de", "fr",
-        #                       args.discourse_relation,
-        #                       f"de_fr_{args.discourse_relation}_mapping.png")
-
-    # TODO: create conn filter for all languages for false alignments
-    # TODO: reduce "a pesar de" and throw out Spanish non-connectives
+        save_alignments(
+            f"{args.source_lang}_{args.target_lang}_connectives_alignment"
+            f"_count.json", align.source_count)
