@@ -9,42 +9,37 @@
 
 import argparse
 import pandas as pd
-import time
 from collections import defaultdict
 from copy import deepcopy
 
-# from process_data import remove_contractions
 from processing_filtering import remove_punct_phrases, save_alignments
 
 
 def parse_word_alignments(result, source_sentences, target_sentences):
-    """Creates alignments for single words, phrases and discontinous
-    phrases based on the eflomal alignment (TODO: explain format)
+    """Creates word alignments based on the eflomal alignment
 
     Parameters
     ----------
     result : str
         The file name for the eflomal alignment
-    german_sentences : str
-        The file name for the German corpus
-    french_sentences : str
-        The file name for the French corpus
+    source_sentences : str
+        The file name for the source corpus
+    target_sentences : str
+        The file name for the target corpus
 
     Returns
     -------
-    de_fr_alignments: defaultdict
-        A dictionary with German keys and the French alignments as
+    lang1_lang2_alignments: defaultdict
+        A dictionary with source keys and the target alignments as
         values
-    fr_de_alignments: defaultdict
-        A dictionary with French keys and the German alignments as
+    lang2_lang1_alignments: defaultdict
+        A dictionary with target keys and the source alignments as
         values
     """
 
-    start = time.time()  # currently 6 minutes
     lang1_lang2_alignments = defaultdict(list)
     lang2_lang1_alignments = defaultdict(list)
 
-    # pos_ = 0
     with open(result, "r", encoding="utf-8") as result,\
             open(source_sentences, "r", encoding="utf-8") as source,\
             open(target_sentences, "r", encoding="utf-8") as target:
@@ -53,9 +48,6 @@ def parse_word_alignments(result, source_sentences, target_sentences):
             target = lang2.split()
             alignment = index.split()
             pair = [a.split("-") for a in alignment]
-            # pos_ += 1
-            # if pos_ == 10:
-            #     break
 
             # Adds an empty string as alignment if there is no
             # alignment for a word
@@ -94,15 +86,15 @@ def parse_word_alignments(result, source_sentences, target_sentences):
             for k, v in phrase_align_lang1_r.items():
                 phrase_align_lang2[tuple(v)].append(k)
 
-            # eliminate unsymmetrical alignments
+            # Eliminate unsymmetrical alignments
             source_target = set([(key, tuple(value)) for key, value
                                  in phrase_align_lang1.items()])
             target_source_r = set([(tuple(value), key) for key, value
                                    in phrase_align_lang2.items()])
-            # TODO: print some examples here for unsymmetricality
-            # demonstration
+
             source_error = list(source_target - target_source_r)
             target_error = list(target_source_r - source_target)
+
             if source_error and target_error:
                 for key, value in source_error:
                     del phrase_align_lang1[key]
@@ -110,7 +102,6 @@ def parse_word_alignments(result, source_sentences, target_sentences):
                     del phrase_align_lang2[key]
 
             # Identifies discontinous phrases
-            # However, seems more like alignment errors
             # For source - target
             for lang1, lang2 in phrase_align_lang1.items():
                 if len(lang2) > 1:
@@ -159,9 +150,6 @@ def parse_word_alignments(result, source_sentences, target_sentences):
                 v = ([target[int(i)] if i.isnumeric() else i for i in lang2])
                 k = remove_punct_phrases(k)
                 v = remove_punct_phrases(v)
-                # contractions = ["d'", "du", "des", "aux", "au"]
-                # if v and v[-1] in contractions:
-                #     v = remove_contractions(v, "french")
                 lang1_lang2_alignments[" ".join(k)].append(" ".join(v))
 
             # Index is replaced by the corresponding word
@@ -170,13 +158,7 @@ def parse_word_alignments(result, source_sentences, target_sentences):
                 v = ([source[int(i)] if i.isnumeric() else i for i in lang1])
                 k = remove_punct_phrases(k)
                 v = remove_punct_phrases(v)
-                # contractions = ["d'", "du", "des", "aux", "au"]
-                # if v and v[-1] in contractions:
-                #     v = remove_contractions(v, "french")
                 lang2_lang1_alignments[" ".join(k)].append(" ".join(v))
-
-    end = time.time()
-    print("The processing of the alignment took {:5.3f}s.".format(end-start))
 
     return lang1_lang2_alignments, lang2_lang1_alignments
 
@@ -186,7 +168,8 @@ def parse_phrase_alignments(result, language1, language2, phrases, lang=1):
     alignments
 
     Can be used in case phrases were separated: "abgesehen" and "davon"
-    could be aligned as single words to two different french words.
+    could be aligned as single words to two different words in the
+    other language.
     However, both might be phrases that are expressed with a similar
     structure.
 
@@ -279,16 +262,6 @@ def parse_phrase_alignments(result, language1, language2, phrases, lang=1):
                                       else pos
                                       for pos in new_phrase]
                         new_phrase = remove_punct_phrases(new_phrase)
-                        # contractions = ["d'", "du", "des", "aux", "au",
-                        #                 "zum", "zur", "vom"]
-                        # if new_phrase and new_phrase[-1] in contractions:
-                        #     if lang == 1:
-                        #         new_phrase = remove_contractions(new_phrase,
-                        #                                          "french")
-                        #     else:
-                        #         new_phrase = remove_contractions(new_phrase,
-                        #                                          "german")
-                        # else:
                         new_phrase = " ".join(new_phrase)
                         if ", ..." in new_phrase:
                             new_phrase = new_phrase.replace(", ...", "...")
@@ -298,11 +271,12 @@ def parse_phrase_alignments(result, language1, language2, phrases, lang=1):
 
 
 def parse_discontinuous(result, language1, language2, phrases, lang=1):
-    """Creates alignments for phrases independently from the eflomal
-    alignments
+    """Creates alignments for discontinuous phrases independently from
+    the eflomal alignments
 
     Can be used in case phrases were separated: "abgesehen" and "davon"
-    could be aligned as single words to two different french words.
+    could be aligned as single words to two different words in the
+    other language.
     However, both might be phrases that are expressed with a similar
     structure.
 
@@ -403,16 +377,6 @@ def parse_discontinuous(result, language1, language2, phrases, lang=1):
                                   else pos
                                   for pos in new_phrase]
                     new_phrase = remove_punct_phrases(new_phrase)
-                    # contractions = ["d'", "du", "des", "aux", "au", "zur",
-                    #                 "zum", "vom"]
-                    # if new_phrase and new_phrase[-1] in contractions:
-                    #     if lang == 1:
-                    #         new_phrase = remove_contractions(new_phrase,
-                    #                                          "french")
-                    #     else:
-                    #         new_phrase = remove_contractions(new_phrase,
-                    #                                          "german")
-                    # else:
                     new_phrase = " ".join(new_phrase)
                     if ", ..." in new_phrase:
                         new_phrase = new_phrase.replace(", ...", "...")
@@ -422,9 +386,6 @@ def parse_discontinuous(result, language1, language2, phrases, lang=1):
 
 
 if __name__ == "__main__":
-    # de, es = parse_word_alignments("europarl_de-es_alignment.txt",
-    #                                "europarl_de-es_de.txt",
-    #                                "europarl_de-es_es.txt")
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--source_lang", action="store",
                         type=str,
