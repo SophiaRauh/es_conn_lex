@@ -1,19 +1,18 @@
 # -*- coding: utf-8 -*-
 
+# Sophia Rauh
+# Matrikelnummer 790850
+# Python 3.9.13
+# Windows 10
+
 """Connectives Alignment"""
 
 from collections import defaultdict
-from copy import deepcopy
 
 from processing_filtering import (filter_most_common_conns,
-                                  # remove_pronouns,
                                   alignment_probabilities,
                                   conn_count,
                                   remove_low_counts,
-                                  # complete_phrases,
-                                  # filter_unlikely_alignments,
-                                  # remove_incomplete_phrases,
-                                  filter_single_words,
                                   remove_punct_values)
 from parse_alignments import parse_phrase_alignments, parse_discontinuous
 
@@ -37,10 +36,6 @@ class FindAlignments:
         Target connectives filtered for a discourse relation type
     source_lex : list
         Source connectives filtered for a discourse relation type
-    all_target_conns : list
-        Target connectives unfiltered
-    all_source_conns : list
-        Source connectives unfiltered
 
     Attributes
     ----------
@@ -58,10 +53,6 @@ class FindAlignments:
         Target connectives filtered for a discourse relation type
     source_lex : list
         Source connectives filtered for a discourse relation type
-    all_target_conns : list
-        Target connectives unfiltered
-    all_source_conns : list
-        Source connectives unfiltered
     counter : int
         counts the rounds to find new alignments
     source_conn_alignments: dict
@@ -75,8 +66,7 @@ class FindAlignments:
     """
 
     def __init__(self, source_alignment_file, target_alignment_file, alignment,
-                 source_corpus, target_corpus, source_lex, target_lex,
-                 source_code, target_code):
+                 source_corpus, target_corpus, source_lex, target_lex):
         self.source_target = source_alignment_file
         self.target_source = target_alignment_file
         self.alignment = alignment
@@ -84,15 +74,11 @@ class FindAlignments:
         self.target_corpus = target_corpus
         self.target_lex = target_lex
         self.source_lex = source_lex
-        self.all_source_conns = deepcopy(source_lex)
-        self.all_target_conns = deepcopy(target_lex)
         self.counter = 0
         self.source_conn_alignments = dict()
         self.target_conn_alignments = dict()
         self.source_count = dict()
         self.target_count = dict()
-        self.source_code = source_code
-        self.target_code = target_code
 
     def find_conns(self, lex=[], lang="source", word_threshold=0.02,
                    phrase_threshold=0.02, word_min_count=20,
@@ -124,37 +110,20 @@ class FindAlignments:
         self.counter += 1
 
         if lang == "target":
-            other_lang_code = self.source_code
             alignments = self.target_source
             count_dict = self.target_count
             lang_pos = 2
-            other_lang = "source"
             if not lex:
                 lex = self.target_lex
-            # Delete connectives with inaccurate alignment
-            # fr_del = ["dire que", "dire qu'", "et dire que", "et dire qu'",
-            #           "encore que", "cependant que", "cependant qu'",
-            #           "encore qu'", "si", "s'",
-            #           "en même temps que", "en même temps qu'"]
-            # lex = [conn for conn in lex if conn not in fr_del]
 
             other_lex = self.source_lex
-            complete_lex = self.all_source_conns
         elif lang == "source":
-            other_lang_code = self.target_code
             alignments = self.source_target
             count_dict = self.source_count
             lang_pos = 1
-            other_lang = "target"
             if not lex:
                 lex = self.source_lex
-            # Delete connectives with inaccurate alignment
-            # de_del = ["bloß", "dabei", "mangels", "mithin", "obschon",
-            #           "wenn ... auch", "wiederum", "wobei", "wohingegen",
-            #           "als ob"]
-            # lex = [conn for conn in lex if conn not in de_del]
             other_lex = self.target_lex
-            complete_lex = self.all_target_conns
         else:
             pass
 
@@ -202,11 +171,6 @@ class FindAlignments:
                                                   phrase_threshold)
         new_alignments = remove_low_counts(new_alignments, count_dict,
                                            word_min_count, phrase_min_count)
-        new_alignments = filter_single_words(new_alignments, other_lang_code)
-        # new_alignments = filter_unlikely_alignments(new_alignments, lang)
-        # new_alignments = remove_incomplete_phrases(new_alignments)
-        # new_alignments = remove_pronouns(new_alignments, other_lang)
-        # new_alignments = complete_phrases(new_alignments, complete_lex)
 
         # Find new connectives
         for conns in new_alignments.values():
@@ -227,13 +191,11 @@ class FindAlignments:
             lang = "target"
 
         if self.counter == limit:
-            print(len(self.source_lex))
-            print(len(self.all_source_conns))
             return
 
         if self.counter == 1:
-            # Ensures that the first entries of the lexicon (DimLex or
-            # LexConn) are not ignored
+            # Ensures that the first entries of the xml lexicon are
+            # not ignored
             self.find_conns(lex, lang, word_threshold, phrase_threshold,
                             word_min_count, phrase_min_count, limit)
         else:
