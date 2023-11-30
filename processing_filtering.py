@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+# Sophia Rauh
+# Matrikelnummer 790850
+# Python 3.9.13
+# Windows 10
+
 """Preprocessing of the data"""
 
 import json
@@ -253,6 +258,21 @@ def read_xml_lex(doc):
 
 
 def read_es_conns(conn_file):
+    """Gets Spanish discourse particles from a text file
+
+    Parameters
+    ----------
+    conn_file : str
+        Path to the file with connectives, one connective per line
+
+    Returns
+    -------
+    conns : list
+        A list with the connectives
+
+    Note: Can be used for other languages as well
+    """
+
     conns = []
     with open(conn_file, "r", encoding="utf-8") as file:
         for line in file:
@@ -269,49 +289,3 @@ def json_to_dict(file):
         data = json.load(f)
 
     return data
-
-
-def filter_single_words(alignments, aligned_lang):
-    """Removes false or incomplete (unrecognizable) alignments
-
-    Parameters
-    ----------
-    alignments : dict
-        The probabilities of alignments
-    aligned_lang : str
-        Abbreviation for the target language: "it", "de", or "es"
-
-    Returns
-    -------
-    alignments : dict
-        The filtered probability alignment
-    """
-
-    if aligned_lang == "de":
-        del_words = ["nicht", "zu", "in", "er", "sie", "sich", "um", "das",
-                     "dies", "so", "was", "der", "es", "ja"]
-    elif aligned_lang == "it":
-        del_words = ["del", "da", "che", "di", "il", "in", "un", "non", "con",
-                     "a", "ad", "su", "nel", "sia", "sul", "sulla", "è", "all",
-                     "alla", "la", "ne", "si", "l'", "dall'", "dal", "ciò",
-                     "dai", "dalla", "dalle", "dei", "della"]
-    elif aligned_lang == "es":
-        del_words = ["es", "no", "de", "del", "el", "en", "un", "lo", "a",
-                     "con", "al", "sea", "ello", "la", "que"]
-
-    for source in alignments.keys():
-        single_words = [single for single in alignments[source]
-                        if len(single.split()) == 1]
-        single_words = pd.unique(single_words).tolist()
-
-        for single in single_words:
-            if single in del_words:
-                del alignments[source][single]
-
-    return alignments
-
-
-if __name__ == "__main__":
-    print(read_xml_lex("dimlex.xml"))
-    print(read_xml_lex("lico_d.xml"))
-    print(read_es_conns("spanish_conns.txt"))
