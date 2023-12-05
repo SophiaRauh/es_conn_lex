@@ -83,11 +83,13 @@ if __name__ == "__main__":
                 sys.exit(
                     "The source connective lexicon has to be a XML or TXT file"
                     )
-        else:
+        elif not args.target_lex:
             sys.exit(
                 "If the source connectives are not in Italian, Spanish or "
                 "German, you have to provide the Path to a connective lexicon"
                 " with the argument '-sl'")
+        else:
+            source_lex = []
 
     if args.target_lang == "it":
         target_lex = read_xml_lex(
@@ -110,11 +112,13 @@ if __name__ == "__main__":
                 sys.exit(
                     "The source connective lexicon has to be a XML or TXT file"
                     )
-        else:
+        elif not args.source_lex:
             sys.exit(
                 "If the source connectives are not in Italian, Spanish or "
                 "German, you have to provide the Path to a connective lexicon"
                 " with the argument '-sl'")
+        else:
+            target_lex = []
 
     align = FindAlignments(source_word_alignment, target_word_alignment,
                            Path(args.word_alignment),
