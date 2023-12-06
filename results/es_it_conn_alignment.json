@@ -44,10 +44,14 @@
         "se (CONTINGENCY:Condition, consequence)": 0.057722308892355696
     },
     "a pesar de": {
-        "anche se (COMPARISON:Concession:Arg1-as-denier)": 0.05539615978812624,
-        "benché (COMPARISON:Concession:Arg1-as-denier)": 0.03229603472375488,
         "ciononostante (COMPARISON:Concession:Arg2-as-denier)": 0.019789597586993304,
         "malgrado (COMPARISON:Concession:Arg1-as-denier)": 0.07371441182961819,
+        "nonostante (COMPARISON:Concession:Arg1-as-denier)": 0.3050099315824321,
+        "tuttavia (COMPARISON:Concession:Arg2-as-denier)": 0.013094975354962114
+    },
+    "a pesar de que**": {
+        "anche se (COMPARISON:Concession:Arg1-as-denier)": 0.05539615978812624,
+        "benché (COMPARISON:Concession:Arg1-as-denier)": 0.03229603472375488,
         "nonostante (COMPARISON:Concession:Arg1-as-denier)": 0.3050099315824321,
         "sebbene (COMPARISON:Concession:Arg1-as-denier)": 0.046862355624218345,
         "tuttavia (COMPARISON:Concession:Arg2-as-denier)": 0.013094975354962114
